@@ -18,8 +18,8 @@ for first in files:
     new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
     # if os.path.exists(new_name):
     #     continue
-    if "28178150" not in new_name:
-        continue
+    # if "28178150" not in new_name:
+    #     continue
     with open(first, "r") as file:
         data = file.read()
     # print(first)
@@ -64,6 +64,6 @@ for first in files:
 
             print(mm_sent)
 
-            # with open(new_name, "a") as file:
-            #     file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
-            #     file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")
+            with open(new_name, "a") as file:
+                file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
+                file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")
