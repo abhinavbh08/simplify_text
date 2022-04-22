@@ -5,17 +5,23 @@ import glob
 from metamap_test import get_concepts
 from get_atoms import get_synonyms
 from word_finder import find_word_frequency
+from abbreviations import schwartz_hearst
+from utils import replace_abbreviation
 
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
-
 
 for first in files:
     # first = files[88]
     print(first)
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
-    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
+    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited_abbreviations_replaced/" + os.path.basename(first)[:-4]+"_edited.txt"
+    full_abstract_path = path +"/"+ os.path.basename(first)[:-4] + ".txt"
+    with open(full_abstract_path, "r") as f:
+        abstract = f.read()
+
+    pairs = schwartz_hearst.extract_abbreviation_definition_pairs(doc_text=abstract, most_common_definition=True)
     # if os.path.exists(new_name):
     #     continue
     # if "28178150" not in new_name:
@@ -63,7 +69,7 @@ for first in files:
                 mm_sent = sent
 
             print(mm_sent)
-
+            mm_sent = replace_abbreviation(mm_sent, pairs)
             with open(new_name, "a") as file:
                 file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
                 file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")
