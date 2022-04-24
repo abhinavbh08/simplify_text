@@ -16,7 +16,7 @@ for first in files:
     print(first)
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
-    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited_abbreviations_replaced/" + os.path.basename(first)[:-4]+"_edited.txt"
+    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited_abbreviations_replaced_earlier/" + os.path.basename(first)[:-4]+"_edited.txt"
     full_abstract_path = path +"/"+ os.path.basename(first)[:-4] + ".txt"
     with open(full_abstract_path, "r") as f:
         abstract = f.read()
@@ -36,7 +36,8 @@ for first in files:
             # simplified_sentence = line[2].lower()
             # print(line[0] + "\t" + line[1] + "\t" + simplified_sentence)
 
-            ordered_concepts, sent = get_concepts(line[2])
+            abs_removed = replace_abbreviation(line[2], pairs)
+            ordered_concepts, sent = get_concepts(abs_removed)
             start_idx = 0
             mm_sent = ''
             for concept in ordered_concepts:
@@ -69,7 +70,7 @@ for first in files:
                 mm_sent = sent
 
             print(mm_sent)
-            mm_sent = replace_abbreviation(mm_sent, pairs)
+            # mm_sent = replace_abbreviation(mm_sent, pairs)
             with open(new_name, "a") as file:
                 file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
                 file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")

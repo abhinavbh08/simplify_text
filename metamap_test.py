@@ -32,9 +32,9 @@ mm = MetaMap.get_instance(mm_home)
 #              'hlca', 'hlco', 'idcn', 'inch', 'ocdi', 'ocac', 'bpoc', 'orch',
 #              'podg', 'phsu', 'phpr', 'lbpr', 'resa', 'resd', 'sbst', 'sosy',
 #              'tmco']
-sem_types = ['antb', 'bmod', 'biof', 'bdsy',
+sem_types = ['antb', 'biof', 'bdsy',
              'clnd', 'diap', 'dsyn', 'nusq',
-            'orch', 'lbpr', 'sbst', 'sosy']
+            'sosy']
 mm_threshold = 2
 
 
