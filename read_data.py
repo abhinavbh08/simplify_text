@@ -9,7 +9,6 @@ from word_finder import find_word_frequency
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
-
 for first in files:
     # first = files[88]
     print(first)
@@ -18,7 +17,7 @@ for first in files:
     new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
     # if os.path.exists(new_name):
     #     continue
-    # if "28178150" not in new_name:
+    # if "29553852" not in new_name:
     #     continue
     with open(first, "r") as file:
         data = file.read()
