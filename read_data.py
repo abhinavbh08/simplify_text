@@ -16,7 +16,7 @@ for first in files:
     print(first)
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
-    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited_abbreviations_replaced_earlier/" + os.path.basename(first)[:-4]+"_edited.txt"
+    new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited_abbreviations_replaced/" + os.path.basename(first)[:-4]+"_edited.txt"
     full_abstract_path = path +"/"+ os.path.basename(first)[:-4] + ".txt"
     with open(full_abstract_path, "r") as f:
         abstract = f.read()
