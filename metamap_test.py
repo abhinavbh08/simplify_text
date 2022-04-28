@@ -16,7 +16,8 @@ from nltk import word_tokenize
 from nltk.corpus import words
 from pymetamap import MetaMap
 import numpy as np
-
+from pymetamap.Concept import FIELD_NAMES_MMI
+from pymetamap.Concept import ConceptMMI
 
 BAR = 0.03
 MIN_LENGTH = 6
@@ -32,9 +33,9 @@ mm = MetaMap.get_instance(mm_home)
 #              'hlca', 'hlco', 'idcn', 'inch', 'ocdi', 'ocac', 'bpoc', 'orch',
 #              'podg', 'phsu', 'phpr', 'lbpr', 'resa', 'resd', 'sbst', 'sosy',
 #              'tmco']
-sem_types = ['antb', 'biof', 'bdsy',
-             'clnd', 'diap', 'dsyn', 'nusq',
-            'sosy']
+sem_types = ['biof', 'bdsy', 'fndg',
+             'diap', 'dsyn',
+            'sosy', 'neop']
 mm_threshold = 2
 
 
@@ -102,9 +103,23 @@ def get_metamap_op(sent):
     """Replace medical concept mentions with their corresponding UMLS Preferred
     Names"""
     sent = sent.strip()
-    concepts, _error = mm.extract_concepts([sent])
+    concepts, _error = mm.extract_concepts([sent], word_sense_disambiguation=True)
     # print(concepts)
-    concepts = [c for c in concepts if c[8].count('/') == 1]
+    # concepts = [c for c in concepts if c[8].count('/') == 1]
+    new_concepts = []
+    for c in concepts:
+        if c[8].count('/') == 1:
+            new_concepts.append(c)
+            continue
+        positions = re.findall(r"(\[[0-9]+\/[0-9]+\])+", c[8])
+        if len(positions)>0:
+            for p in positions:
+                lst_items = [getattr(c, item) for item in FIELD_NAMES_MMI]
+                lst_items[8] = p[1:-1]
+                nc = ConceptMMI.from_mmi("|".join(lst_items))
+                new_concepts.append(nc)
+
+    concepts = new_concepts[:]
     concepts = [c for c in concepts if any([i in c[5] for i in sem_types])]
     fil_concepts = []
     for concept in concepts:
@@ -153,3 +168,5 @@ def get_concepts(sentence):
     #     src_file.writelines(sentences)
     # with open(tgt_path, 'w') as tgt_file:
     #     tgt_file.writelines(ops)
+# ordered_c = get_concepts("The patient got a heart attack and it was a major heart attack.")
+# print("abc")

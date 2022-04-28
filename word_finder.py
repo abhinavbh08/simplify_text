@@ -1,11 +1,12 @@
 from gettext import find
 import urllib
 import requests
-
+from nltk.corpus import stopwords
 
 def find_word_frequency(word):
     words = word.split()
     words = [w for w in words if len(w)>2]
+    words = [word for word in words if word.lower() not in stopwords.words('english')]
     if len(words) == 0:
         return 0
     cnt = 0
@@ -24,4 +25,4 @@ def find_word_frequency(word):
             cnt += response.json()['phrases'][0]['mc']
     return cnt / len(words)
 
-# print(find_word_frequency("Hypertension"))
+# print(find_word_frequency("blood then pressure"))
