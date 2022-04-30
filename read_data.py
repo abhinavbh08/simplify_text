@@ -5,10 +5,14 @@ import glob
 from metamap_test import get_concepts
 from get_atoms import get_synonyms
 from word_finder import find_word_frequency
+from pymetamap.Concept import ConceptMMI
+import pickle
 
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
+total_concepts = {}
+concepts_examples = {}
 for first in files:
     # first = files[88]
     print(first)
@@ -30,6 +34,19 @@ for first in files:
             # print(line[0] + "\t" + line[1] + "\t" + simplified_sentence)
 
             ordered_concepts, sent = get_concepts(line[2])
+            for c in ordered_concepts:
+            # if c.__class__ is ConceptMMI:
+                entity_names = c[5][1:-1].split(",")
+                strt, end = [int(x) for x in c[8].split("/")]
+                for name in entity_names:
+                    if name in total_concepts:
+                        total_concepts[name] += 1
+                        concepts_examples[name].append(sent[strt - 1: strt -1 + end])
+                    else:
+                        total_concepts[name] = 1
+                        concepts_examples[name] = [sent[strt - 1: strt -1 + end]]
+
+            continue
             start_idx = 0
             mm_sent = ''
             for concept in ordered_concepts:
@@ -66,3 +83,9 @@ for first in files:
             with open(new_name, "a") as file:
                 file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
                 file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")
+
+with open('sem_types.pickle', 'wb') as handle:
+    pickle.dump(total_concepts, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+with open('sem_examples.pickle', 'wb') as handle:
+    pickle.dump(concepts_examples, handle, protocol=pickle.HIGHEST_PROTOCOL)

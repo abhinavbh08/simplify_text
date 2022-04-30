@@ -120,7 +120,7 @@ def get_metamap_op(sent):
                 new_concepts.append(nc)
 
     concepts = new_concepts[:]
-    concepts = [c for c in concepts if any([i in c[5] for i in sem_types])]
+    # concepts = [c for c in concepts if any([i in c[5] for i in sem_types])]
     fil_concepts = []
     for concept in concepts:
         try:

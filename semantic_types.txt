@@ -1,0 +1,206 @@
+qnco	0(103)	95(65)	baseline(39)	mm Hg(34)	mean(32)	0.001(29)	mmHg(25)	decreased(25)	more(21)	only(20)
+
+qlco	associated with(30)	effective(23)	higher(21)	similar(21)	levels(15)	effect(15)	improved(14)	related(14)	reduced(12)	seen(11)
+
+ftcn	not(54)	observed(22)	plus(19)	with(17)	increased(12)	treated(12)	increase(11)	incidence(10)	change(10)	ocular(8)
+
+fndg	IOP(32)	results(18)	in(14)	follow-up(12)	29(9)	infected(9)	resulted(8)	4(7)	diabetic(7)	pain(6)
+
+phsu	TDF(19)	HBsAg(14)	mg(13)	ETV(11)	LAM(11)	PEG-IFN alfa-2a(9)	spironolactone(9)	brimonidine(9)	FU(8)	GS-9620(7)
+
+tmco	week(34)	months(19)	weeks(18)	postoperative(14)	year(12)	preoperative(11)	Week(11)	years(9)	response rate(9)	days(8)
+
+aapp	P(77)	to(30)	p(25)	SBP(10)	CHOP(9)	(9)	HBeAg(9)	PEG-IFN alfa-2a(9)	G-CSF(7)	ChOP(6)
+
+topp	treatment(36)	trabeculectomy(22)	placebo(15)	reduction(14)	chemotherapy(13)	treated with(12)	therapy(12)	monotherapy(12)	radiochemotherapy(11)	supplementation(8)
+
+orch	MMC(14)	LAM(11)	spironolactone(9)	brimonidine(9)	GS-9620(7)	imatinib(6)	travoprost(6)	metformin(5)	ETV(5)	raltitrexed(5)
+
+inpr	1(20)	2(19)	low(8)	overall(8)	favorable(6)	IMT(6)	55(5)	standard(5)	risk factors(5)	safe(5)
+
+imft	P(77)	p(25)	HBsAg(14)	HBeAg(9)	PEG-IFN alfa-2a(9)	(8)	G-CSF(7)	bevacizumab(5)	.(4)	interferon(3)
+
+popg	group(104)	groups(34)	participants(7)	intervention group(6)	pregnant women(4)	treatment group(3)	or(2)	cohort(2)	women(2)	(2)
+
+idcn	significant(47)	and(13)	risk(13)	based(11)	quality of life(11)	data(5)	Ex(5)	suggests(5)	subjects(4)	suggest(3)
+
+acty	compared(52)	survival(17)	rate(15)	occurred(9)	provided(8)	Compared(8)	consumption(5)	lower(5)	comparison(4)	rates(4)
+
+clna	P(70)	p(37)	(6)	undetectable(5)	medications(4)	findings(3)	dose(2)	systolic BP(2)	)(2)	 (2)
+
+podg	patients(144)	Patients(4)	patient(4)	trial group(3)	elderly patients(1)	cancer patients(1)	cancer survivors(1)	survivors(1)	evaluable patients(1)
+
+dsyn	hypertension(8)	PVI(8)	CHB(7)	hypoglycemia(6)	IOP reduction(5)	chronic hepatitis B(4)	type 2 diabetes(4)	reducing IOP(4)	hepatitis B(3)	IOP reductions(3)
+
+gngm	in(14)	an(13)	BP(8)	odds(5)	SLT(5)	of(5)	In(4)	AST(4)	GGT(3)	1.7(3)
+
+lbpr	CI(31)	HBV DNA(10)	analysis(10)	profile(8)	lipid(3)	test drug(2)	AST/ALT(2)	studies(2)	LAP(2)	Met(2)
+
+resa	study(19)	placebo(14)	efficacy(8)	safety(6)	randomization(4)	trial(3)	randomized(3)	treatment arms(2)	research(2)	normalization(2)
+
+spco	lower(14)	superior(8)	in(4)	further(4)	In(3)	At(3)	intra-arterial(3)	r(2)	peripheral(2)	longitudinal(2)
+
+bacs	SBP(10)	CHOP(9)	ChOP(6)	glucose(4)	BID(3)	DTR(3)	creatinine(2)	iron(2)	DNA(2)	hepatitis B virus DNA(2)
+
+bpoc	eyes(21)	colonic(4)	AG(4)	renal(3)	carotid(3)	femoral(3)	uveal(2)	LT(2)	Ca(2)	vascular(2)
+
+nnon	TDF(19)	FU(8)	ETV(6)	AZT(5)	fludarabine(5)	DepoCyt(5)	entecavir(3)	ara-C(3)	DNA(2)	hepatitis B virus DNA(2)
+
+patf	adverse events(9)	fibrosis(3)	infections(2)	effusions(2)	insulin resistance(2)	hypotony(2)	adverse effects(2)	Adverse events(2)	Postoperative complications(2)	complications(2)
+
+hlca	reported(8)	surveillance(8)	intervention(5)	after treatment(4)	postoperative interventions(2)	monitoring(2)	evaluated(2)	taking(2)	health promotion(1)	medication management(1)
+
+sosy	QOL(13)	fatigue(7)	QoL(7)	syncope(3)	symptoms(3)	symptom(3)	headaches(2)	headache(2)	fluctuations(2)	Headache(1)
+
+enzy	to(30)	DBP(4)	alanine aminotransferase(3)	alkaline phosphatase(2)	CTX(2)	creatine kinase(2)	Carbonic anhydrase(1)	aminotransferase(1)	Cox(1)	PSA(1)
+
+menp	affect(4)	experienced(4)	resistance(3)	confidence(3)	satisfaction(2)	irritation(2)	cognitive function(2)	practices(1)	strategy(1)	sexual desire(1)
+
+blor	arm(15)	lower(11)	arms(6)	CHEST(3)	RM(2)	hepatic(1)	Hepatic(1)
+
+neop	ALT(8)	B-cell lymphoma(4)	tumor(2)	CLL(2)	prostate cancer(2)	pancreatic cancer(2)	PAD(1)	HCC(1)	primary cancer(1)	breast cancer(1)
+
+diap	RRS(9)	diastolic blood pressure(4)	diagnosed(4)	systolic blood pressure(3)	Karnofsky(3)	apnea-hypopnea index(2)	Diastolic blood pressure(1)	tonometry(1)	mg(1)	quantitative sensory testing(1)
+
+socb	success(9)	inferior(4)	association(3)	role(3)	inferiority(3)	lifestyle(3)	social situations(2)	According(1)	respect(1)	o that u(1)
+
+cnce	improvement(18)	improvements(4)	support(2)	cause(2)	unaffected(1)	influencing(1)	Improvement(1)	conditions(1)	set(1)	filtering(1)
+
+elii	mg(13)	sodium(3)	iron(2)	Hg(2)	reactive oxygen species(2)	OH(2)	 =(2)	lead(1)	ro(1)	IR(1)
+
+anim	showed(28)	shown(4)	showing(2)	shows(1)
+
+antb	MMC(14)	anthracycline(3)	rapamycin(3)	PV(2)	Anthracycline(2)	doxorubicin(1)	antibiotics(1)	(1)	, r(1)	009(1)
+
+orga	ability(5)	response(5)	responses(3)	aged(2)	age(1)	female sex(1)	susceptible(1)	genotypic(1)	r, (1)	mulati(1)
+
+medd	tube(8)	stent(4)	CAP(4)	AOR(3)	CGM(3)	shunt surgery(2)	sutures(1)	Snellen(1)	probe(1)	drug target(1)
+
+mnob	ART(4)	well(4)	switching(3)	pouch(3)	neoadjuvant(2)	reservoir(2)	head(1)	chamber(1)	cigarette(1)	led(1)
+
+phsf	resistance(9)	TWIST(4)	function(3)	Resistance(2)	consumption(2)	the differences(1)	the difference(1)	The change(1)	blood flow(1)	hypoglycemic effect(1)
+
+bdsu	serum(8)	blood(4)	milk(4)	plasma(4)	Serum(3)	stool(3)	Fixed(1)
+
+sbst	control(14)	pre-treatment(3)	pretreatment(2)	liquids(2)	additive(1)	dietary constituents(1)	sample(1)	extract(1)	controls(1)	fluid(1)
+
+grup	control group(19)	reported by(2)	person(2)	community(1)
+
+vita	vitamin D(7)	calcitriol(4)	folic acid(3)	favoring(2)	vitamin C(1)	vitamins(1)	favor(1)	vitamin(1)	Vitamin D3(1)	PGA(1)
+
+lbtr	total cholesterol(3)	HBeAg-positive(3)	HIV(2)	Cholesterol Total(2)	serum alkaline phosphatase levels(1)	total bilirubin(1)	seronegative(1)	resistant(1)	triglycerides level(1)	alanine aminotransferase level(1)
+
+horm	vitamin D(5)	insulin(3)	LHRH(3)	hormone(2)	incretin(2)	testosterone(1)	testosterone (25 (1)	dione (5.5 nmol(1)	Insulin(1)
+
+bmod	cataract surgery(3)	Cataract surgery(2)	PT(2)	surgery(2)	morphology(2)	specialty(1)	allopathic medicine(1)	er(1)	(1)	haematological(1)
+
+geoa	de(4)	co(4)	by(2)	ISR(2)	level(1)	IR(1)	Indiana(1)	Boston(1)
+
+inpo	hepatotoxicity(5)	falls(3)	of acute kidney injury(2)	immersion(1)	Fracture(1)	cardiotoxicity(1)	Toxicities(1)	damage(1)	toxicities(1)
+
+inch	multiple micronutrient(5)	sodium nitrite(2)	NPT(2)	water(1)	electrolytes(1)	Sodium nitrite(1)	.06(1)	(1)	potassium(1)	F(1)
+
+food	synbiotic(5)	supplements(3)	Synbiotic(1)	salt(1)	functional food(1)	dietary sodium(1)	Cinnamon(1)	grain(1)	diet(1)	dietary(1)
+
+clas	SICS(2)	CPT(2)	earlier stages(1)	Grading(1)	grading(1)	type 2(1)	(1)	subgroup(1)	a group(1)	stage I(1)
+
+virs	ADV(7)	HIV(4)	hepatitis B virus(1)	H3(1)
+
+orgf	reaching(3)	cytokine production(1)	blood-pressure(1)	vision(1)	deaths(1)	Menstrual(1)	born(1)	nutrition(1)	blood pressure(1)	death(1)
+
+npop	seroconversion(9)	flow(1)	reductions(1)	clearance(1)
+
+phob	combination(11)
+
+evnt	session(4)	sessions(2)	0.68 mm(1)	y 21.66(1)	event(1)	events(1)	prior(1)
+
+bodm	ologen(3)	preservative(2)	Sustained release(1)	immediate release(1)	concluded(1)	Preservative(1)	Ologen(1)	capsules(1)
+
+acab	J-pouch(6)	cataract(3)	choroidal detachment(1)
+
+ortf	liver function(2)	immune response(1)	bone resorption(1)	tion (PINP).(1)	renal function(1)	kidney function(1)	haemodynamics(1)	Intra-ocular pressure(1)
+
+ocac	administration(4)	production(3)	translate(1)	management(1)
+
+mobd	Depression(2)	suffering(2)	addictive(1)	possesses(1)	MDI(1)	depression(1)	Anxiety(1)
+
+dora	daily activities(3)	exercise(2)	fitness(2)	Exercise training(1)	activities of daily living(1)
+
+prog	COC(3)	actuarial(1)	barbers(1)	pharmacists(1)	R(1)	principal(1)
+
+grpa	alone(7)	small-group(1)
+
+inbe	risk reduction(2)	choice(1)	drinking(1)	cigarette smoking(1)	s for age, (1)	conflicting(1)	performance(1)
+
+tisu	endothelial(2)	trabecular(1)	muscle(1)	white matter(1)	visceral fat(1)	body tissue(1)	tissues(1)
+
+euka	This(3)	glaucoma(2)	planes(1)	sepsis(1)
+
+genf	crossed over(3)	crossing over(2)	mutations(2)
+
+cell	T cells(2)	T-cell(2)	NK cells(1)	cell(1)
+
+mbrt	ISH(5)	gro(1)
+
+phpr	of 141 (1(1)	neutral(1)	deterioration(1)	signals(1)	mitigate(1)	phenomena(1)
+
+hcro	neoadjuvant(2)	World Health Organization(1)	EORTC(1)	laboratory(1)
+
+chvs	nitrite(2)	gas(2)	complex(1)
+
+famg	children(2)	maternal(2)	mothers(1)
+
+irda	glucose control(1)	DME(1)	primary end point(1)	PAH(1)	contrasts(1)
+
+celf	NK-cell activation(1)	NK-cell function(1)	metabolic(1)	cleavage(1)
+
+rcpt	pgr(1)	% C(1)	eGFR(1)	retinoid X receptor(1)
+
+lang	Japanese(2)	mono(2)
+
+ocdi	statistically(2)	Statistically(1)	demographic(1)
+
+enty	products(3)	product(1)
+
+bhvr	visits(2)	visit(2)
+
+orgt	utility(4)
+
+aggp	infants(2)	adults(2)
+
+mamm	SD(2)	bears(1)
+
+bdsy	renin angiotensin system(1)	cardiovascular(1)	Cardiovascular(1)
+
+plnt	anemia(2)	cinnamon(1)
+
+moft	E3(1)	interferon gamma(1)	SGLT2 inhibitors(1)
+
+hops	CTX(2)
+
+gora	Control drug(1)	control drug(1)
+
+hcpp	nitrogen(1)	illuminated(1)
+
+biof	viral reactivation(1)	adapted(1)
+
+rnlw	local tolerance(1)	excretion(1)
+
+emst	Amnion(1)	amnion(1)
+
+cgab	nanophthalmos(1)
+
+bact	Lactococcus lactis(1)
+
+bsoj	retrobulbar(1)
+
+bird	AIx(1)
+
+anst	stoma(1)
+
+anab	fragmentation(1)
+
+chvf	oxidant(1)
+
+humn	body(1)
+
