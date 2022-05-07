@@ -52,7 +52,7 @@ uri = "https://uts-ws.nlm.nih.gov"
 #     content_endpoint = "/rest/content/"+str(version)+"/source/"+str(source)+"/"+str(identifier)
 
 def get_synonyms(cui):
-    content_endpoint = "/rest/content/current/CUI/" + cui +"/atoms?sabs=SNOMEDCT_US,CHV,MSH"
+    content_endpoint = "/rest/content/2020AA/CUI/" + cui +"/atoms?sabs=SNOMEDCT_US,CHV,MSH"
 
     ##ticket is the only parameter needed for this call - paging does not come into play because we're only asking for one Json object
     query = {'ticket':AuthClient.getst(tgt)}
