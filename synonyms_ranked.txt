@@ -1,0 +1,1600 @@
+0
+AG_C0152305
+Structure of angular gyrus	15466451.0
+Structure of angular gyrus	15466451.0
+Structure of angular gyrus (body structure)	9279870.6
+Angular Gyrus	1824092.5
+Angular gyrus	1824092.5
+angular gyrus	1824092.5
+Gyrus, Angular	1665810.0
+Gyrus Angularis	166040.0
+gyrus angularis	166040.0
+Prelunate Gyrus	158529.0
+Gyrus Angulari	158507.5
+Angulari, Gyrus	158282.5
+Angularis, Gyrus	158282.5
+Gyrus, Prelunate	246.5
+AG	0
+
+
+1
+conventional treatment_C2945704
+Conventional Treatment	27312572.5
+conventional treatment	27312572.5
+conventional treatment	27312572.5
+
+
+2
+placebo_C0032042
+Sham Treatment	23333244.5
+sham treatment	23333244.5
+fake drug	9060672.5
+sham therapy	8128274.5
+placebo	1072177.0
+placebo	1072177.0
+Placebos	55498.0
+Placebos	55498.0
+placebos	55498.0
+
+
+3
+systolic blood pressure_C1306620
+systolic blood pressure	32023027.0
+blood pressure systolic	32023027.0
+systolic blood pressure	32023027.0
+Systolic blood pressure measurement	26209345.0
+sbp	58068.0
+
+
+4
+side effect_C0879626
+side effect	82239955.5
+adverse effect	37496144.0
+Adverse effects	22919970.0
+adverse effects	22919970.0
+
+
+5
+QoL_C0518214
+Quality of life	122060545.0
+quality of life	122060545.0
+life quality	122060545.0
+Quality of life satisfaction	85107136.66666667
+Perceived quality of life	84279043.0
+perceived quality of life	84279043.0
+Quality of life satisfaction (observable entity)	51064282.0
+QoL	58460.0
+
+
+6
+first-line treatment_C1708063
+First line treatment	146404767.33333334
+First line treatment	146404767.33333334
+First line treatment (procedure)	109803575.5
+first-line treatment	23061364.5
+
+
+7
+chronic-phase CML_C0023474
+Chronic phase chronic myeloid leukemia	8134445.0
+Chronic phase chronic myeloid leukaemia	7885866.2
+Leukemia, Myeloid, Stable Phase	7851564.0
+Leukemia, Myeloid, Chronic Phase	7509977.25
+Leukemia, Granulocytic, Chronic Phase	7509977.25
+Leukemia, Myelogenous, Chronic Phase	7509977.25
+Chronic phase chronic myeloid leukemia (disorder)	6778704.166666667
+Granulocytic Leukemia, Chronic, Stable Phase	6292520.8
+Myeloid Leukemia, Chronic, Chronic Phase	6051008.4
+Myelogenous Leukemia, Chronic, Chronic Phase	6025917.4
+Myeloid Leukemia, Chronic, Chronic-Phase	53783.25
+Myeloid Leukemia, Chronic, Stable-Phase	53783.25
+chronic-phase CML	51715.0
+Myelogenous Leukemia, Chronic, Chronic-Phase	22419.5
+Granulocytic Leukemia, Chronic, Stable-Phase	14087.0
+Leukemia, Myeloid, Chronic-Phase	0.0
+Leukemia, Myeloid, Chronic-Phase	0.0
+Leukemia, Granulocytic, Chronic-Phase	0.0
+Leukemia, Myelogenous, Chronic-Phase	0.0
+Leukemia, Myeloid, Stable-Phase	0.0
+
+
+8
+irradiation_C1522449
+Radiation oncology AND/OR radiotherapy	2044506270.5
+Radiation oncology AND/OR radiotherapy (procedure)	1635605016.4
+Radiation Treatment	27106320.0
+Radiation therapy procedure or service	26129908.5
+Radiation therapy procedure or service (procedure)	20903926.8
+Radiation Therapy	11901350.0
+radiation therapy	11901350.0
+therapy radiation	11901350.0
+Therapeutic radiology procedure	8404728.666666666
+radiations therapy	7942620.0
+Radiotherapy procedures	7667753.5
+Radiation Treatments	5894626.5
+radiation therapies	4632411.5
+Radiation Therapies	4632411.5
+Therapies, Radiation	4119507.0
+Therapy, Radiation	4119507.0
+Treatment, Radiation	4119507.0
+irradiation	1350284.0
+irradiation	1350284.0
+Radiotherapy	419805.0
+Radiotherapy	419805.0
+radiotherapy	419805.0
+RT - Radiotherapy	419805.0
+Radiotherapies	172.0
+
+
+9
+tumors of the head and neck_C0018671
+Neoplasm of head AND/OR neck	2069289370.5
+Neoplasm of head AND/OR neck (disorder)	1655431496.4
+Tumor of head and neck	38100124.333333336
+head neck tumor	38100124.333333336
+tumors of the head and neck	37386049.666666664
+head neck tumors	37386049.666666664
+Tumour of head and neck	36138385.0
+Head and Neck Neoplasms	36090923.333333336
+Head and Neck Neoplasms	36090923.333333336
+head and neck neoplasms	36090923.333333336
+head neck neoplasms	36090923.333333336
+head neck tumours	36063474.666666664
+Neoplasm of head and neck	36030356.666666664
+Neoplasms, Head and Neck	35910990.333333336
+Head, Neck Neoplasms	5186302.333333333
+
+
+10
+second carcinoma_C0085668
+second carcinoma	49755973.5
+Secondary carcinoma	8982526.5
+Secondary carcinoma	8982526.5
+carcinoma secondary	8982526.5
+
+
+11
+chemotherapy_C0392920
+cancer chemotherapy	6627006.5
+chemotherapy	1524900.0
+chemotherapy	1524900.0
+Chemotherapy Regimen	1325655.0
+chemotherapy regimen	1325655.0
+chemotherapy regimens	972921.5
+Antineoplastic chemotherapy regimen	908263.6666666666
+Antineoplastic chemotherapy regimen (regime/therapy)	681197.75
+chemo	91957.0
+chemotherapies	6044.0
+
+
+12
+radiotherapy_C1522449
+Radiation oncology AND/OR radiotherapy	2044506270.5
+Radiation oncology AND/OR radiotherapy (procedure)	1635605016.4
+Radiation Treatment	27106320.0
+Radiation therapy procedure or service	26129908.5
+Radiation therapy procedure or service (procedure)	20903926.8
+Radiation Therapy	11901350.0
+radiation therapy	11901350.0
+therapy radiation	11901350.0
+Therapeutic radiology procedure	8404728.666666666
+radiations therapy	7942620.0
+Radiotherapy procedures	7667753.5
+Radiation Treatments	5894626.5
+radiation therapies	4632411.5
+Radiation Therapies	4632411.5
+Therapies, Radiation	4119507.0
+Therapy, Radiation	4119507.0
+Treatment, Radiation	4119507.0
+irradiation	1350284.0
+radiotherapy	419805.0
+Radiotherapy	419805.0
+Radiotherapy	419805.0
+radiotherapy	419805.0
+RT - Radiotherapy	419805.0
+Radiotherapies	172.0
+
+
+13
+recurrence_C1458156
+Recurrent malignant neoplastic disease	11145621.5
+Recurrent malignant neoplastic disease (disorder)	8916497.2
+Recurrent cancer	6955573.0
+Recurrent Malignant Neoplasm	1758584.0
+recurrence	1697074.0
+
+
+14
+metastasis_C0027627
+metastatic disease	20013849.5
+secondary	14908260.0
+secondary tumor	10737831.0
+metastatic cancer	6251030.5
+metastatic tumor	3670175.0
+metastasis tumor	3516277.5
+tumor metastasis	3516277.5
+metastatic tumors	2599063.0
+Metastases	806196.0
+metastases	806196.0
+metastases	806196.0
+metastatic tumour	727566.0
+metastatic tumours	615200.5
+Neoplasm Metastases	582147.5
+tumour metastasis	573668.5
+tumour metastasis	573668.5
+metastatic neoplasm	565523.5
+metastatic neoplasm	565523.5
+metastasis	465153.0
+Metastasis	465153.0
+metastasis	465153.0
+Neoplasm Metastasis	411626.0
+Neoplasm Metastasis	411626.0
+secondaries	180445.0
+Metastases, Neoplasm	179049.5
+Metastasis, Neoplasm	179049.5
+metastasized	35422.0
+
+
+15
+chemotherapy_C0013216
+drug therapy treatment	26171097.0
+Drug Therapy	16269832.5
+drug therapy	16269832.5
+Drug therapy	16269832.5
+Drug therapy (procedure)	10846555.0
+Medication therapy	9418873.5
+therapy medication	9418873.5
+medication therapy	9418873.5
+Drug Therapies	9000894.0
+drug therapies	9000894.0
+medications therapy	8922845.5
+Therapies, Drug	8487989.5
+Therapy, Drug	8487989.5
+drugs therapies	6609637.0
+chemotherapy	1524900.0
+Chemotherapy	1524900.0
+Pharmacotherapy	114511.0
+Pharmacotherapy	114511.0
+pharmacotherapy	114511.0
+Chemotherapies	6044.0
+Pharmacotherapies	5902.0
+pharmacotherapies	5902.0
+pharmacotherapeutics	5100.0
+
+
+16
+insulin sensitivity_C0920563
+Insulin Sensitivity	4340463.5
+insulin sensitivity	4340463.5
+Insulin Sensitivity	4340463.5
+insulin sensitivity	4340463.5
+Sensitivity, Insulin	1492778.0
+
+
+17
+tissues_C0040300
+Body tissue	53057338.0
+Body tissue	53057338.0
+body tissue	53057338.0
+Body tissue structure	49621948.0
+body tissues	48575105.0
+Body tissue structure (body structure)	29773168.8
+tissue	15634369.0
+Tissue	15634369.0
+Tissue	15634369.0
+tissues	6669903.0
+Tissues	6669903.0
+tissues	6669903.0
+
+
+18
+treatment_C0087111
+treatment method	48319655.0
+method treatment	48319655.0
+treatment	45973626.0
+Treatment	45973626.0
+treatment	45973626.0
+methods treatment	39919441.5
+Therapy	15563686.0
+Therapy	15563686.0
+therapy	15563686.0
+Therapeutic procedure	12291909.5
+Therapeutic procedure	12291909.5
+Procedure - therapeutic	12291909.5
+Therapeutic procedure (procedure)	8194606.333333333
+Therapy (regime/therapy)	7781843.0
+Therapeutic	4520877.0
+Treatments	3550239.0
+treatments	3550239.0
+therapies	1025809.0
+Therapies	1025809.0
+Therapeutics	254815.0
+therapeutics	254815.0
+
+
+19
+insulin resistance_C0021655
+Drug resistance to insulin	13340790.0
+Insulin Resistance	11523195.5
+insulin resistance	11523195.5
+Insulin Resistance	11523195.5
+Insulin resistance	11523195.5
+insulin resistance	11523195.5
+Drug resistance to insulin (disorder)	10005592.5
+Insulin resistance (disorder)	7682130.333333333
+Resistance, Insulin	1492778.0
+
+
+20
+reduction_C1293152
+Reduction procedure	16873109.0
+Reduction procedure	16873109.0
+reduction	13683276.0
+Reduction procedure (procedure)	11248739.333333334
+
+
+21
+DIR_C1704536
+Direct Method	43265271.5
+DIR	960922.0
+
+
+22
+ambulatory BP monitoring_C0242876
+Ambulatory Blood Pressure Monitoring	25161612.0
+Blood Pressure Monitoring, Ambulatory	23948468.0
+Blood Pressure Monitoring, Ambulatory	23948468.0
+Monitoring, Ambulatory Blood Pressure	23948468.0
+ambulatory BP monitoring	2671122.5
+
+
+23
+primary_C0439631
+Primary operation	27515440.5
+Primary operation	27515440.5
+primary	26257746.0
+Primary	26257746.0
+Primary operation (qualifier value)	13757720.25
+
+
+24
+in hemogl_C1293152
+Reduction procedure	16873109.0
+Reduction procedure	16873109.0
+Reduction procedure (procedure)	11248739.333333334
+in hemogl	0.0
+
+
+25
+type 2 diabetes_C0011860
+type 2 diabetes	33044807.0
+Type 2 diabetes mellitus	22262433.666666668
+diabetes mellitus type 2	22262433.666666668
+type 2 diabetes mellitus	22262433.666666668
+Diabetes mellitus type 2	22262433.666666668
+Type 2 Diabetes Mellitus	22262433.666666668
+Diabetes mellitus type II	22262433.666666668
+diabetes mellitus type ii	22262433.666666668
+type ii diabetes mellitus	22262433.666666668
+Type II diabetes mellitus	22262433.666666668
+Diabetes Mellitus, Type 2	22029871.333333332
+Diabetes Mellitus, Type II	22029871.333333332
+Diabetes Mellitus, Non Insulin Dependent	11148920.2
+adult onset diabetes mellitus	5478827.75
+Diabetes Mellitus, Adult Onset	5304406.0
+Stable Diabetes Mellitus	4781791.333333333
+Diabetes Mellitus, Stable	4549229.0
+Diabetes Mellitus, Ketosis Resistant	1683917.75
+Adult-Onset Diabetes Mellitus	1320863.0
+Non-Insulin-Dependent Diabetes Mellitus	1310409.3333333333
+Ketosis-Resistant Diabetes Mellitus	1310409.3333333333
+Diabetes Mellitus, Adult-Onset	1088300.6666666667
+Diabetes Mellitus, Non-Insulin-Dependent	1077847.0
+Diabetes Mellitus, Non-Insulin-Dependent	1077847.0
+Diabetes Mellitus, Ketosis-Resistant	1077847.0
+NIDDM	62884.0
+niddm	62884.0
+
+
+26
+hepatitis B_C0019163
+Type B viral hepatitis	22108621.666666668
+Viral hepatitis type B	22108621.666666668
+Viral hepatitis type B (disorder)	16581466.25
+Hepatitis B Virus Infection	6299710.0
+Hepatitis B infection	6198388.5
+Serum hepatitis	3643676.0
+serum hepatitis	3643676.0
+SH - Serum hepatitis	3643676.0
+b viral hepatitis	1734896.0
+hepatitis b viral	1734896.0
+hepatitis viral b	1734896.0
+viral hepatitis b	1734896.0
+Hepatitis B	1494621.0
+hepatitis B	1494621.0
+Hepatitis B	1494621.0
+Hepatitis B	1494621.0
+hepatitis B	1494621.0
+
+
+27
+CHB_C0151517
+Third degree heart block	42029983.75
+heart block third degree	42029983.75
+third degree heart block	42029983.75
+Complete heart block	40980601.333333336
+complete heart block	40980601.333333336
+block complete heart	40980601.333333336
+heart block complete	40980601.333333336
+High grade atrioventricular block	37406042.5
+CHB - Complete heart block	30739604.25
+av block complete	27766063.5
+complete av block	27766063.5
+Third degree atrioventricular block	25232661.0
+Complete atrioventricular block	18584171.0
+Complete atrioventricular block	18584171.0
+Complete atrioventricular block (disorder)	13938128.25
+CHB	16613.0
+chb	16613.0
+
+
+28
+eyes_C0015392
+eyes	81407814.0
+Eyes	81407814.0
+eyes	81407814.0
+Eye structure	37681681.5
+Structure of eye proper	35182123.666666664
+Eye	32612195.0
+Eye	32612195.0
+Eye	32612195.0
+eye	32612195.0
+Ocular structure	21907677.5
+Eyeball structure	21611662.5
+Structure of eye proper (body structure)	21109274.2
+globe	3246201.0
+ocular	1064187.0
+Eyeball	472157.0
+eyeball	472157.0
+eyeballs	282271.0
+
+
+29
+fluctuations_C0231239
+fluctuations	2410770.0
+fluctuations	2410770.0
+Fluctuation	744560.0
+Fluctuation	744560.0
+fluctuation	744560.0
+Fluctuation (finding)	372280.0
+
+
+30
+IOP reduction_C0028841
+low intraocular pressure	33558314.0
+decrease intraocular pressure	17117606.0
+Hypotony of eye	16314022.0
+Decreased intraocular pressure	15949153.333333334
+decreased intraocular pressure	15949153.333333334
+Lowered intraocular pressure	15455286.666666666
+Decreased intraocular pressure (finding)	11961865.0
+Hypotony of eye (disorder)	10876014.666666666
+IOP reduction	6903271.5
+decreased iop	3041654.5
+Globe hypotension	2035740.0
+Ocular Hypotension	944733.0
+Ocular Hypotension	944733.0
+ocular hypotension	944733.0
+Ocular Hypotony	540018.0
+Ocular hypotony	540018.0
+hypotony ocular	540018.0
+ocular hypotony	540018.0
+Hypotension, Ocular	532093.5
+Hypotony, Ocular	532093.5
+
+
+31
+POAG_C0339573
+Primary open angle glaucoma	27050483.0
+primary open angle glaucoma	27050483.0
+Primary Open Angle Glaucoma	27050483.0
+Glaucoma, Primary Open Angle	26880077.0
+Glaucoma, Primary Open Angle	26880077.0
+Chronic Primary Open Angle Glaucoma	23449946.2
+Primary open angle glaucoma (disorder)	21640386.4
+Chronic simple glaucoma	17688747.333333332
+chronic simple glaucoma	17688747.333333332
+simple chronic glaucoma	17688747.333333332
+CSG - Chronic simple glaucoma	13274052.75
+Primary open-angle glaucoma	8979790.0
+primary open-angle glaucoma	8979790.0
+POAG - Primary open-angle glaucoma	6736722.0
+COAG - Chronic open-angle glaucoma	2432911.25
+POAG	7518.0
+
+
+32
+was_C0043194
+Aldrich Syndrome	4573010.0
+Aldrich syndrome	4573010.0
+aldrich syndrome	4573010.0
+Wiskott Syndrome	4246082.0
+wiskott syndrome	4246082.0
+Wiskott-Aldrich Syndrome	4235388.5
+Wiskott-Aldrich Syndrome	4235388.5
+Wiskott-Aldrich syndrome	4235388.5
+wiskott-aldrich syndrome	4235388.5
+Eczema-Thrombocytopenia-Immunodeficiency Syndrome	4235388.5
+WAS - Wiskott-Aldrich syndrome	4235388.5
+Wiskott Aldrich Syndrome	3055802.3333333335
+Wiskott Aldrich syndrome	3055802.3333333335
+aldrich syndrome wiskott	3055802.3333333335
+wiskott aldrich syndrome	3055802.3333333335
+Wiskott-Aldrich syndrome (disorder)	2823592.3333333335
+Eczema Thrombocytopenia Immunodeficiency Syndrome	2470838.25
+Eczema, thrombocytopenia, immunodeficiency syndrome	2279141.0
+Immunodeficiency 2s	645787.0
+Immunodeficiency 2	645787.0
+Wiskott Syndromes	497928.0
+Eczema-Thrombocytopenia-Immunodeficiency Syndromes	487234.5
+Immunodeficiency with thrombocytopenia AND eczema	470858.6666666667
+was	0
+Imd2	0.0
+
+
+33
+perfusion_C0031001
+Perfusion - action	35125714.0
+Perfusion - action (qualifier value)	17562857.0
+perfusion	864871.0
+Perfusion	864871.0
+Perfusion	864871.0
+perfusion	864871.0
+Perfusion (procedure)	432435.5
+Perfusion (procedure)	432435.5
+Perfusions	6827.0
+perfusions	6827.0
+
+
+34
+Eyes_C0015392
+Eyes	81407814.0
+Eyes	81407814.0
+eyes	81407814.0
+Eye structure	37681681.5
+Structure of eye proper	35182123.666666664
+Eye	32612195.0
+Eye	32612195.0
+Eye	32612195.0
+eye	32612195.0
+Ocular structure	21907677.5
+Eyeball structure	21611662.5
+Structure of eye proper (body structure)	21109274.2
+globe	3246201.0
+ocular	1064187.0
+Eyeball	472157.0
+eyeball	472157.0
+eyeballs	282271.0
+
+
+35
+ocular_C0015392
+Eyes	81407814.0
+eyes	81407814.0
+Eye structure	37681681.5
+Structure of eye proper	35182123.666666664
+Eye	32612195.0
+Eye	32612195.0
+Eye	32612195.0
+eye	32612195.0
+Ocular structure	21907677.5
+Eyeball structure	21611662.5
+Structure of eye proper (body structure)	21109274.2
+globe	3246201.0
+ocular	1064187.0
+ocular	1064187.0
+Eyeball	472157.0
+eyeball	472157.0
+eyeballs	282271.0
+
+
+36
+progression_C0242656
+Course of illness	52738884.5
+course illness	52738884.5
+course of illness	52738884.5
+Course of illness (attribute)	35159256.333333336
+courses disease	24185017.5
+Disease Progression	20921670.5
+Disease Progression	20921670.5
+disease progression	20921670.5
+Disease Progressions	19727201.0
+Progression, Disease	19627375.5
+Progressions, Disease	19627375.5
+progression	2588590.0
+
+
+37
+radiochemotherapy_C0436307
+Chemoradiotherapy	11719.0
+Chemoradiotherapy	11719.0
+radiochemotherapy	2123.0
+Radiochemotherapy	2123.0
+radiochemotherapy	2123.0
+radiochemotherapy (non-specific)	1061.5
+Chemoradiotherapies	0.0
+Radiochemotherapies	0.0
+
+
+38
+Erythema_C0041834
+redness of skin	12179698.5
+redness skin	12179698.5
+skin redness	12179698.5
+skin redness	12179698.5
+Erythema of skin	12090143.5
+skin erythema	12090143.5
+Erythema of skin (finding)	8060095.666666667
+Erythema - observation	6661284.0
+erythema findings	5404105.5
+Erythema	435078.0
+Erythema	435078.0
+Erythema	435078.0
+Erythema	435078.0
+Erythema	435078.0
+erythema	435078.0
+erythema	435078.0
+Erythema (finding)	217539.0
+Erythema (morphologic abnormality)	145026.0
+Erythemas	4725.0
+erythemas	4725.0
+
+
+39
+leukopenia_C0023530
+Leukopenia	141902.0
+leukopenia	141902.0
+Leukopenia	141902.0
+Leukopenia	141902.0
+leukopenia	141902.0
+Leukopenia (disorder)	70951.0
+Leucopenia	18085.0
+leucopenia	18085.0
+Leukocytopenia	989.0
+Leukocytopenia	989.0
+leukocytopenia	989.0
+Leukopenias	689.0
+Leukocytopenias	0.0
+Leucocytopenia	0.0
+
+
+40
+toxicities_C0600688
+Toxic effect	37055821.0
+Toxic effect	37055821.0
+Toxic effect of	37055821.0
+toxic effect	37055821.0
+effects toxics	20695303.0
+toxic	3611206.0
+Toxicity	2347831.0
+toxicity	2347831.0
+toxicities	102768.0
+toxicities	102768.0
+toxics	42518.0
+
+
+41
+Postoperative complication_C0032787
+Postoperative problem	34209545.5
+complications post op	12213806.0
+Postoperative Complications	2704880.0
+Postoperative Complications	2704880.0
+complications postoperative	2704880.0
+postoperative complications	2704880.0
+Postoperative complication	1523024.5
+Postoperative Complication	1523024.5
+postoperative complication	1523024.5
+complication postoperative	1523024.5
+Postoperative complication	1523024.5
+Postoperative complication (disorder)	1015349.6666666666
+Complication, Postoperative	704778.5
+Complications, Postoperative	704778.5
+
+
+42
+anastomotic leakage_C0919691
+anastomotic leakage	666991.5
+Anastomotic Leakage	666991.5
+Anastomotic Leak	661418.5
+Anastomotic Leak	661418.5
+anastomotic leak	661418.5
+Anastomotic Leaks	408314.0
+anastomotic leaks	408314.0
+Anastomotic Leakages	65817.0
+Leak, Anastomotic	42829.5
+Leaks, Anastomotic	42829.5
+Leakage, Anastomotic	42829.5
+Leakages, Anastomotic	42829.5
+
+
+43
+postoperative bleeding_C0032788
+Postoperative Blood Loss	30946728.333333332
+Blood Loss, Postoperative	18392935.666666668
+Loss, Postoperative Blood	18392935.666666668
+hemorrhage post operative	8643265.333333334
+postoperative bleeding	3095558.5
+Postoperative bleeding	3095558.5
+postoperative bleeding	3095558.5
+Postoperative Hemorrhage	1818708.5
+Postoperative Hemorrhage	1818708.5
+Postoperative hemorrhage	1818708.5
+hemorrhage postoperative	1818708.5
+postoperative hemorrhage	1818708.5
+Postoperative hemorrhage (disorder)	1212472.3333333333
+Hemorrhage postprocedure	1119530.5
+Postoperative Hemorrhages	910705.5
+postoperative haemorrhage	884744.5
+Postoperative haemorrhage	884744.5
+Hemorrhage, Postoperative	704778.5
+Hemorrhages, Postoperative	704778.5
+Haemorrhage postprocedure	185566.5
+
+
+44
+delayed wound healing_C5200936
+Slow healing wound	10273535.0
+Delayed healing of wound	6282391.333333333
+delayed wound healing	6282391.333333333
+Delayed healing of wound	6282391.333333333
+delayed wound healing	6282391.333333333
+of delayed wound healing	6282391.333333333
+healing impaired wound	5786044.0
+delayed healing	5146705.5
+healing delayed	5146705.5
+Delayed healing of wound (finding)	4711793.5
+healing impaired	4402184.5
+
+
+45
+neoadjuvant_C0600558
+Neoadjuvant Treatment	23000629.0
+neoadjuvant treatment	23000629.0
+induction therapy	9575196.0
+Neoadjuvant Therapy	7795659.0
+Neoadjuvant Therapy	7795659.0
+neoadjuvant therapy	7795659.0
+Neoadjuvant Treatments	1788935.5
+Neoadjuvant Therapies	526720.5
+neoadjuvant	27632.0
+Therapies, Neoadjuvant	13816.0
+Therapy, Neoadjuvant	13816.0
+Treatment, Neoadjuvant	13816.0
+Treatments, Neoadjuvant	13816.0
+
+
+46
+RRS_C4049798
+Total Respiratory System Resistance	50711526.25
+RRS	13225.0
+
+
+47
+monotherapy_C4763675
+Single Agent Therapy	29775163.666666668
+monotherapy	66841.0
+
+
+48
+treatments_C0087111
+treatment method	48319655.0
+method treatment	48319655.0
+Treatment	45973626.0
+treatment	45973626.0
+methods treatment	39919441.5
+Therapy	15563686.0
+Therapy	15563686.0
+therapy	15563686.0
+Therapeutic procedure	12291909.5
+Therapeutic procedure	12291909.5
+Procedure - therapeutic	12291909.5
+Therapeutic procedure (procedure)	8194606.333333333
+Therapy (regime/therapy)	7781843.0
+Therapeutic	4520877.0
+treatments	3550239.0
+Treatments	3550239.0
+treatments	3550239.0
+therapies	1025809.0
+Therapies	1025809.0
+Therapeutics	254815.0
+therapeutics	254815.0
+
+
+49
+reducing IOP_C0028841
+low intraocular pressure	33558314.0
+decrease intraocular pressure	17117606.0
+Hypotony of eye	16314022.0
+Decreased intraocular pressure	15949153.333333334
+decreased intraocular pressure	15949153.333333334
+Lowered intraocular pressure	15455286.666666666
+Decreased intraocular pressure (finding)	11961865.0
+Hypotony of eye (disorder)	10876014.666666666
+reducing IOP	3608717.0
+decreased iop	3041654.5
+Globe hypotension	2035740.0
+Ocular Hypotension	944733.0
+Ocular Hypotension	944733.0
+ocular hypotension	944733.0
+Ocular Hypotony	540018.0
+Ocular hypotony	540018.0
+hypotony ocular	540018.0
+ocular hypotony	540018.0
+Hypotension, Ocular	532093.5
+Hypotony, Ocular	532093.5
+
+
+50
+biomicroscopic_C0183355
+Slit Lamp	3316515.5
+lamp slit	3316515.5
+slit lamp	3316515.5
+Slit lamp	3316515.5
+Slit Lamp Biomicroscope	2213184.3333333335
+Slit lamp biomicroscope	2213184.3333333335
+Gullstrand Slit Lamp	2213175.6666666665
+Gullstrand's Slit Lamp	2211340.0
+Slit Lamp Biomicroscopes	2211083.3333333335
+Gullstrands Slit Lamp	2211010.3333333335
+Biomicroscopes, Slit Lamp	2211010.3333333335
+Biomicroscope, Slit Lamp	2211010.3333333335
+Lamp Biomicroscope, Slit	2211010.3333333335
+Lamp Biomicroscopes, Slit	2211010.3333333335
+Slit Lamps	2077469.5
+Slit lamp biomicroscope (physical object)	1327910.6
+Slit lamp biomicroscope (physical object)	1327910.6
+Lamps, Slit	707868.5
+Lamp, Slit	707868.5
+Lamp, Gullstrand's Slit	472242.0
+Slit Lamp, Gullstrand's	472242.0
+Biomicroscope	6522.0
+biomicroscope	6522.0
+biomicroscopic	3777.0
+
+
+51
+ALT_C1266129
+Atypical lipomatous tumor	2461435.6666666665
+ALT	701537.0
+Atypical lipomatous tumour	499696.3333333333
+Atypical Lipoma	438511.0
+Atypical lipoma	438511.0
+Atypical lipoma (morphologic abnormality)	219255.5
+Lipoma-like liposarcoma	13002.0
+
+
+52
+Treatment_C0087111
+treatment method	48319655.0
+method treatment	48319655.0
+Treatment	45973626.0
+Treatment	45973626.0
+treatment	45973626.0
+methods treatment	39919441.5
+Therapy	15563686.0
+Therapy	15563686.0
+therapy	15563686.0
+Therapeutic procedure	12291909.5
+Therapeutic procedure	12291909.5
+Procedure - therapeutic	12291909.5
+Therapeutic procedure (procedure)	8194606.333333333
+Therapy (regime/therapy)	7781843.0
+Therapeutic	4520877.0
+Treatments	3550239.0
+treatments	3550239.0
+therapies	1025809.0
+Therapies	1025809.0
+Therapeutics	254815.0
+therapeutics	254815.0
+
+
+53
+renal_C0022646
+Renal structure	23981976.0
+Kidney structure	23269887.5
+kidney structure	23269887.5
+Kidney structure (body structure)	11634943.75
+renal	5212784.0
+renal	5212784.0
+Kidney	3788607.0
+Kidney	3788607.0
+Kidney	3788607.0
+kidney	3788607.0
+Kidneys	1783339.0
+kidneys	1783339.0
+
+
+54
+bone mineral density_C0177804
+Bone Mineral Density Test	18229458.25
+bone mineral density	10506148.666666666
+
+
+55
+spine_C0037949
+Structure of vertebral column	19752682.0
+Structure of vertebral column (body structure)	11851609.2
+Spinal Column	10103913.0
+spinal column	10103913.0
+Vertebral column	8253439.0
+vertebral column	8253439.0
+Vertebral Column	8253439.0
+Spinal Columns	6498128.0
+Vertebral Columns	4647654.0
+spine	3671017.0
+Spine	3671017.0
+spine	3671017.0
+Column, Spinal	2391378.5
+Columns, Spinal	2391378.5
+spines	1303732.0
+backbone	1074578.0
+Column, Vertebral	540904.5
+Columns, Vertebral	540904.5
+backbones	69826.0
+
+
+56
+hip_C0019552
+Hip region structure	25306296.333333332
+Hip structure	23063117.0
+Hip structure	23063117.0
+hip structure	23063117.0
+Bone structure of hip	20129760.666666668
+Hip region	16583860.5
+hip region	16583860.5
+Hip region structure (body structure)	15183777.8
+Bone structure of hip (body structure)	12077856.4
+hip	3375066.0
+Hip	3375066.0
+Hip	3375066.0
+Hip	3375066.0
+hip	3375066.0
+Hips	2033760.0
+hips	2033760.0
+Coxa	99284.0
+coxa	99284.0
+Coxas	1468.0
+
+
+57
+fourth-line therapy_C4524695
+Fourth-Line Therapy	7781843.0
+fourth-line therapy	7781843.0
+
+
+58
+resistant hypertension_C0745130
+Resistant hypertensive disorder	4165109.0
+Resistant hypertensive disorder	4165109.0
+Resistant hypertensive disorder (disorder)	3123831.75
+resistant hypertension	2973162.0
+Resistant hypertension	2973162.0
+
+
+59
+group treatment_C0374505
+group treatment	67351285.0
+Group Therapies	44877376.5
+
+
+60
+essential hypertension_C0085580
+Primary hypertension	14386318.5
+primary hypertension	14386318.5
+hypertension primary	14386318.5
+Essential Hypertension	13057340.5
+essential hypertension	13057340.5
+Essential Hypertension	13057340.5
+Essential hypertension	13057340.5
+essential hypertension	13057340.5
+Hypertension, Essential	11799895.0
+essential hypertension unspecified	8892379.0
+Essential hypertension (disorder)	8704893.666666666
+Systemic primary arterial hypertension	8555587.5
+Idiopathic hypertension	1541970.5
+idiopathic hypertension	1541970.5
+
+
+61
+therapies_C0087111
+treatment method	48319655.0
+method treatment	48319655.0
+Treatment	45973626.0
+treatment	45973626.0
+methods treatment	39919441.5
+Therapy	15563686.0
+Therapy	15563686.0
+therapy	15563686.0
+Therapeutic procedure	12291909.5
+Therapeutic procedure	12291909.5
+Procedure - therapeutic	12291909.5
+Therapeutic procedure (procedure)	8194606.333333333
+Therapy (regime/therapy)	7781843.0
+Therapeutic	4520877.0
+Treatments	3550239.0
+treatments	3550239.0
+therapies	1025809.0
+therapies	1025809.0
+Therapies	1025809.0
+Therapeutics	254815.0
+therapeutics	254815.0
+
+
+62
+kidney_C0022646
+Renal structure	23981976.0
+Kidney structure	23269887.5
+kidney structure	23269887.5
+Kidney structure (body structure)	11634943.75
+renal	5212784.0
+Kidney	3788607.0
+kidney	3788607.0
+Kidney	3788607.0
+Kidney	3788607.0
+kidney	3788607.0
+Kidneys	1783339.0
+kidneys	1783339.0
+
+
+63
+fibrosis_C0016059
+Fibrous repair	4181927.5
+Fibrous replacement	3208600.5
+fibrosis (formation of excess fibrous connective tissue)	2599177.3333333335
+Fibrous thickening	1284106.5
+Fibrosis	982899.0
+fibrosis	982899.0
+Fibrosis	982899.0
+Fibrosis	982899.0
+Fibrosis	982899.0
+fibrosis	982899.0
+Fibrosis (morphologic abnormality)	327633.0
+Fibrosis (qualifier value)	327633.0
+Fibroplasia	34893.0
+fibroplasia	34893.0
+Desmoplasia	2892.0
+desmoplasia	2892.0
+fibrose	2273.0
+Fibroses	1544.0
+fibroses	1544.0
+
+
+64
+morphology_C0700619
+Science of Morphology	15146542.0
+science of morphology	15146542.0
+morphology	1425690.0
+morphology	1425690.0
+
+
+65
+Cardiovascular complications_C0161816
+complications heart	35704940.0
+complication heart	34523084.5
+Cardiac complications of care	23444136.0
+cardiac complications	4358954.0
+complications cardiac	4358954.0
+Cardiac complication	3177098.5
+Cardiac complication	3177098.5
+cardiac complication	3177098.5
+Cardiovascular complications	2782161.5
+Cardiac complication (disorder)	2118065.6666666665
+
+
+66
+Diabetes Mellitus_C0011849
+disorder diabetes mellitus	4180941.6666666665
+diabetes	3233541.0
+Diabetes Mellitus	1965614.0
+Diabetes Mellitus	1965614.0
+Diabetes Mellitus	1965614.0
+Diabetes mellitus	1965614.0
+diabetes mellitus	1965614.0
+DM - Diabetes mellitus	1965614.0
+diabetes (DM)	1616770.5
+diabetes mellitus (DM)	1310409.3333333333
+Diabetes mellitus (disorder)	1310409.3333333333
+diabete mellitus	350502.5
+
+
+67
+supplementation_C0242297
+Dietary Supplementation	1329615.5
+dietary supplementation	1329615.5
+nutritional supplementation	1165745.0
+supplementation	521028.0
+supplementation	521028.0
+
+
+68
+_C0032042
+Sham Treatment	23333244.5
+sham treatment	23333244.5
+fake drug	9060672.5
+sham therapy	8128274.5
+placebo	1072177.0
+Placebos	55498.0
+Placebos	55498.0
+placebos	55498.0
+
+
+69
+diabetes_C0011849
+disorder diabetes mellitus	4180941.6666666665
+diabetes	3233541.0
+diabetes	3233541.0
+Diabetes Mellitus	1965614.0
+Diabetes Mellitus	1965614.0
+Diabetes mellitus	1965614.0
+diabetes mellitus	1965614.0
+DM - Diabetes mellitus	1965614.0
+diabetes (DM)	1616770.5
+diabetes mellitus (DM)	1310409.3333333333
+Diabetes mellitus (disorder)	1310409.3333333333
+diabete mellitus	350502.5
+
+
+70
+Cardiovascular_C0007226
+cardiovascular system body	73832515.0
+Cardiovascular system	65508619.0
+Cardiovascular system	65508619.0
+Cardiovascular System	65508619.0
+cardiovascular system	65508619.0
+Circulatory System	65100876.0
+circulatory system	65100876.0
+Circulatory system	65100876.0
+Structure of cardiovascular system	57922802.0
+Structure of cardiovascular system (body structure)	34753681.2
+Cardiovascular structure	22157644.0
+cardiovascular structure	22157644.0
+Cardiovascular Systems	20950142.0
+cardiovascular systems	20950142.0
+Circulatory Systems	20542399.0
+Cardiovascular	1564120.0
+circulatory	748634.0
+
+
+71
+vascular_C0005847
+Blood vessel structure	35803922.666666664
+blood vessel structure	35803922.666666664
+Blood Vessels	33322734.0
+blood vessels	33322734.0
+Blood Vessel	32330300.0
+Blood Vessel	32330300.0
+Blood vessel	32330300.0
+blood vessel	32330300.0
+Vessel, Blood	26884625.0
+Vessels, Blood	26884625.0
+Vascular structure	23224161.0
+vascular structure	23224161.0
+Blood vessel structure (body structure)	21482353.6
+vessels	12876218.0
+vessel	10891350.0
+vascular	3697154.0
+vascular	3697154.0
+
+
+72
+complementary therapy_C0936077
+Alternative medicine therapy	13618400.333333334
+complementary therapy	8852074.0
+Complementary therapy	8852074.0
+complementary therapy	8852074.0
+therapy complementary	8852074.0
+Complementary therapy (regime/therapy)	5901382.666666667
+Complementary therapies	1583135.5
+Complementary Therapies	1583135.5
+complementary therapies	1583135.5
+therapies complementary	1583135.5
+Therapies, Complementary	1070231.0
+Therapy, Complementary	1070231.0
+
+
+73
+chronic hepatitis B_C0524909
+Chronic type B viral hepatitis	18843416.0
+Chronic type B viral hepatitis (disorder)	15074732.8
+Chronic Hepatitis B Virus Infection	6986732.25
+Hepatitis B, Chronic	5271210.0
+chronic hepatitis B	5271210.0
+Hepatitis B, Chronic	5271210.0
+Chronic Hepatitis B	5271210.0
+hepatitis b chronic	5271210.0
+chronic hepatitis b	5271210.0
+chronic hep b	4567902.0
+Hepatitis B Virus Infection, Chronic	4261193.25
+Chronic viral hepatitis B	4172530.3333333335
+hepatitis b chronic viral	4172530.3333333335
+
+
+74
+combination therapy_C0009429
+combined treatment	30348571.5
+Multimodal Treatment	23041502.0
+multimodal treatment	23041502.0
+combination therapy	15789387.0
+Combination therapy	15789387.0
+combination therapy	15789387.0
+combination therapy	15789387.0
+Combination therapy (regime/therapy)	10526258.0
+Combined Modality Therapy	10287385.333333334
+Combined Modality Therapy	10287385.333333334
+combined modality therapy	10287385.333333334
+combination therapies	8520448.5
+combination therapies	8520448.5
+Combined Modality Therapies	5441426.333333333
+Modality Therapies, Combined	5099490.0
+Modality Therapy, Combined	5099490.0
+Therapies, Combined Modality	5099490.0
+Therapy, Combined Modality	5099490.0
+Multimodal Treatments	1829808.5
+multimodal treatments	1829808.5
+Treatment, Multimodal	54689.0
+Treatments, Multimodal	54689.0
+
+
+75
+severe anemia_C0238644
+severe anemia	9287685.5
+anemia severe	9287685.5
+severe anemia	9287685.5
+Anemia, severe	8251852.0
+profound anemia	4535022.5
+
+
+76
+QOL_C0518214
+Quality of life	122060545.0
+quality of life	122060545.0
+life quality	122060545.0
+Quality of life satisfaction	85107136.66666667
+Perceived quality of life	84279043.0
+perceived quality of life	84279043.0
+Quality of life satisfaction (observable entity)	51064282.0
+QOL	58460.0
+
+
+77
+transfusion_C0005841
+Transfusion of blood product	29421486.666666668
+Transfusing blood products	27683721.666666668
+Blood Transfusion	27277996.5
+Blood Transfusion	27277996.5
+blood transfusion	27277996.5
+Blood transfusion	27277996.5
+BT - Blood transfusion	27277996.5
+Blood Transfusions	27053737.0
+blood transfusions	27053737.0
+Transfusions, Blood	26884625.0
+Transfusion, Blood	26884625.0
+Blood product administration by intravascular infusion	22318027.2
+Transfusion of blood product (procedure)	22066115.0
+transfusion	786743.0
+
+
+78
+NHL_C0024305
+Diffuse Small Cleaved-Cell Lymphoma	31368355.5
+Lymphoma, Small Cleaved-Cell, Diffuse	31155771.25
+Small Cleaved-Cell Lymphoma, Diffuse	31155771.25
+Lymphoma, Atypical Diffuse Small Lymphoid	25197191.0
+Lymphoma, Small Cleaved Cell, Diffuse	24978562.8
+Non Hodgkin Lymphoma	12016301.0
+non hodgkin lymphoma	12016301.0
+Non Hodgkin's Lymphoma	11938658.666666666
+non hodgkin's lymphoma	11938658.666666666
+non hodgkins lymphoma	11825810.666666666
+Lymphoma, Non Hodgkin	11732855.333333334
+Lymphoma, Non Hodgkin's	11655213.0
+Lymphoma, Non Hodgkins	11542365.0
+Non-Hodgkin Lymphoma	425168.5
+Non-Hodgkin's Lymphoma	425168.5
+Non-Hodgkins Lymphoma	425168.5
+non-hodgkin lymphoma	425168.5
+non-hodgkins lymphoma	425168.5
+Non-Hodgkin's lymphoma	425168.5
+Non-Hodgkin's lymphoma	425168.5
+non-hodgkin's lymphoma	425168.5
+Non-Hodgkin lymphoma	425168.5
+NHL	227136.0
+Lymphoma, Non-Hodgkin	0.0
+Lymphoma, Non-Hodgkin	0.0
+Lymphoma, Non-Hodgkin's	0.0
+Lymphoma, Non-Hodgkins	0.0
+
+
+79
+CLL_C0023434
+Chronic lymphatic leukemia	3753998.6666666665
+Chronic Lymphocytic Leukemia	3566090.0
+Chronic Lymphocytic Leukemia	3566090.0
+Chronic lymphocytic leukemia	3566090.0
+chronic lymphocytic leukemia	3566090.0
+chronic leukemia lymphocytic	3566090.0
+leukemia chronic lymphocytic	3566090.0
+lymphocytic leukemia chronic	3566090.0
+b chronic lymphocytic leukemia	3566090.0
+Chronic B-Lymphocytic Leukemia	3472394.3333333335
+Chronic lymphatic leukaemia	3339700.6666666665
+chronic lymphatic leukaemia	3339700.6666666665
+Leukemia, Chronic Lymphatic	3297537.3333333335
+Chronic lymphocytic leukaemia	3151792.0
+chronic lymphocytic leukaemia	3151792.0
+Chronic Lymphocytic Leukemias	3147148.6666666665
+Lymphocytic Leukemia, Chronic	3109628.6666666665
+Lymphocytic Leukemias, Chronic	3109628.6666666665
+Leukemia, Chronic Lymphocytic	3109628.6666666665
+B Lymphocytic Leukemia, Chronic	3109628.6666666665
+Chronic B-Lymphocytic Leukemias	3053453.0
+Leukemia, Lymphocytic, Chronic	3015933.0
+B-Lymphocytic Leukemia, Chronic	3015933.0
+B-Lymphocytic Leukemias, Chronic	3015933.0
+Leukemia, Chronic B-Lymphocytic	3015933.0
+Leukemias, Chronic B-Lymphocytic	3015933.0
+CLL	77602.0
+
+
+80
+epoetin therapy_C0199970
+Erythropoietin therapy	7848693.0
+Erythropoietin therapy	7848693.0
+erythropoietin therapy	7848693.0
+epoetin therapy	7788417.0
+Erythropoietin therapy (procedure)	5232462.0
+
+
+81
+haemodynamics_C0019010
+Hemodynamic	337476.0
+Hemodynamics	97068.0
+Hemodynamics	97068.0
+haemodynamics	8134.0
+
+
+82
+right heart catheterization_C0189896
+Catheterization of right heart	74645333.66666667
+right heart catheterization	74645333.66666667
+Catheterization of right heart	74645333.66666667
+Right heart catheterization	74645333.66666667
+catheterization heart right	74645333.66666667
+catheterization right heart	74645333.66666667
+right heart catheterization	74645333.66666667
+Right heart catheterisation	74518972.33333333
+Catheterisation of right heart	74518972.33333333
+Introduction of catheter into right heart	59285117.25
+Cardiac catheterization, right heart	57066412.75
+Cardiac catheterisation, right heart	57066412.75
+Catheterization of right heart (procedure)	55984000.25
+
+
+83
+Intra-ocular pressure_C0021888
+pressure in eye	37073574.0
+Intraocular Pressure	20943709.0
+Intraocular pressure	20943709.0
+intraocular pressure	20943709.0
+Intra-ocular pressure	20767476.5
+Physiologic Intraocular Pressure	14269260.333333334
+IOP - Intraocular pressure	14003561.666666666
+Intraocular pressure (observable entity)	10471854.5
+Ocular Tension	5135835.5
+ocular tension	5135835.5
+Intraocular Pressures	3107483.5
+intraocular pressures	3107483.5
+Ocular Tensions	1680741.5
+Tensions, Ocular	532093.5
+Tension, Ocular	532093.5
+Pressure, Intraocular	176232.5
+Pressures, Intraocular	176232.5
+
+
+84
+therapy_C0087111
+treatment method	48319655.0
+method treatment	48319655.0
+Treatment	45973626.0
+treatment	45973626.0
+methods treatment	39919441.5
+therapy	15563686.0
+Therapy	15563686.0
+Therapy	15563686.0
+therapy	15563686.0
+Therapeutic procedure	12291909.5
+Therapeutic procedure	12291909.5
+Procedure - therapeutic	12291909.5
+Therapeutic procedure (procedure)	8194606.333333333
+Therapy (regime/therapy)	7781843.0
+Therapeutic	4520877.0
+Treatments	3550239.0
+treatments	3550239.0
+therapies	1025809.0
+Therapies	1025809.0
+Therapeutics	254815.0
+therapeutics	254815.0
+
+
+85
+progressive disease_C0677932
+progressive disease	22834815.5
+Progressive Neoplastic Disease	15359904.333333334
+
+
+86
+hypercholesterolemia_C0020443
+High Cholesterol Level	63685710.0
+High cholesterol	62895956.0
+high blood cholesterol level	61206595.0
+High Cholesterol Levels	51652147.0
+Cholesterol Level, High	41930637.333333336
+Cholesterol Levels, High	41930637.333333336
+Level, High Cholesterol	41930637.333333336
+Levels, High Cholesterol	41930637.333333336
+Elevated Cholesterol	3959543.5
+elevated cholesterol	3959543.5
+Elevated Cholesterols	2700881.0
+Cholesterol, Elevated	2698783.5
+Cholesterols, Elevated	2698783.5
+Hypercholesterolemia	97804.0
+hypercholesterolemia	97804.0
+Hypercholesterolemia	97804.0
+Hypercholesterolemia	97804.0
+hypercholesterolemia	97804.0
+Hypercholesterolemia (disorder)	48902.0
+Hypercholesterolaemia	6255.0
+hypercholesterolaemia	6255.0
+Hypercholesteremia	5586.0
+hypercholesteremia	5586.0
+Hypercholesterolemias	293.0
+Hypercholesteremias	0.0
+hypercholesteraemia	0.0
+
+
+87
+headache_C0018681
+Head Pain	61298684.0
+Head pain	61298684.0
+Pain in head	61298684.0
+pain in head	61298684.0
+head pains	48631456.0
+Head Pains	48631456.0
+ache head	46848191.0
+head ache	46848191.0
+head pained	46641443.0
+Pain, Head	46356931.5
+Pains, Head	46356931.5
+Headache	2731884.0
+headache	2731884.0
+Headache	2731884.0
+Headache	2731884.0
+headache	2731884.0
+Headaches	1199665.0
+headaches	1199665.0
+Cephalalgia	21689.0
+Cephalalgia	21689.0
+cephalalgia	21689.0
+Cephalgia	3242.0
+Cephalgia	3242.0
+cephalgia	3242.0
+Cephalalgias	618.0
+cephalgias	237.0
+Cephalgias	237.0
+
+
+88
+central hypothyroidism_C0271801
+Central hypothyroidism	14772284.5
+central hypothyroidism	14772284.5
+Central hypothyroidism	14772284.5
+central hypothyroidism	14772284.5
+hypothyroidism central	14772284.5
+Central Hypothyroidism	14772284.5
+central hypothyroid	14620507.0
+hypothyroid central	14620507.0
+Central Hypothyroidisms	14591441.0
+Hypothyroidism, Central	14591441.0
+Central hypothyroidism (disorder)	9848189.666666666
+Secondary Hypothyroidism	7634973.5
+Hypothyroidism, Secondary	7454130.0
+Secondary Hypothyroidisms	7454130.0
+
+
+89
+asthenia_C0004093
+Asthenia	63255.0
+asthenia	63255.0
+Asthenia	63255.0
+Asthenia	63255.0
+asthenia	63255.0
+Asthenia (finding)	31627.5
+
+
+90
+neutropenic fever_C0746883
+fever neutropenia	4510289.5
+neutropenia fever	4510289.5
+neutropenic fever	4449050.5
+Neutropenic fever	4449050.5
+fever neutropenic	4449050.5
+neutropenic fever	4449050.5
+Neutropaenic fever	4427819.0
+Febrile Neutropenia	316452.5
+Febrile Neutropenia	316452.5
+febrile neutropenia	316452.5
+neutropenia febrile	316452.5
+Febrile neutropenia	316452.5
+Febrile Neutropenias	234927.5
+Neutropenia, Febrile	233982.0
+Neutropenias, Febrile	233982.0
+Febrile neutropenia (disorder)	210968.33333333334
+
+
+91
+triglyceride levels_C0428475
+level triglycerides	32767275.0
+Triglyceride level	32731397.0
+level triglyceride	32731397.0
+triglyceride level	32731397.0
+Triglyceride level - finding	27512520.333333332
+Triglyceride level - finding	27512520.333333332
+Finding of triglyceride level	27512520.333333332
+Finding of triglyceride level (finding)	20634390.25
+levels triglycerides	14716930.5
+triglyceride levels	14681052.5
+levels triglyceride	14681052.5
+
+
+92
+oral treatment_C0001563
+oral treatment	27245393.0
+Oral Drug Administration	15790845.333333334
+Oral Administration	15198278.5
+oral administration	15198278.5
+administration oral	15198278.5
+Administration of drug or medicament via oral route	11245219.833333334
+oral medication administration	11223539.333333334
+Administration of drug or medicament via oral route (procedure)	9638759.857142856
+Oral Drug Administrations	8767632.333333334
+Drug Administration, Oral	8497713.0
+Administration, Oral Drug	8497713.0
+Administrations, Oral Drug	8497713.0
+Drug Administrations, Oral	8497713.0
+Oral Administrations	4663459.0
+Administration, Oral	4258580.0
+Administration, Oral	4258580.0
+Administrations, Oral	4258580.0
+Medication administration: oral	3930407.0
+
+
+93
+stage cutaneous T-cell lymphoma_C0280254
+stage cutaneous T-cell lymphoma	8829033.25
+stage, cutaneous T-cell non-Hodgkin lymphoma	407380.8
+
+
+94
+hypothyroidism_C0020676
+Hypothyroidism	361687.0
+hypothyroidism	361687.0
+Hypothyroidism	361687.0
+Hypothyroidism	361687.0
+hypothyroidism	361687.0
+Hypothyroidism (disorder)	180843.5
+Hypothyroid	58132.0
+hypothyroid	58132.0
+Hypothyroidisms	0.0
+hypothyroidisms	0.0
+
+

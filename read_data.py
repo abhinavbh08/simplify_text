@@ -5,24 +5,30 @@ import glob
 from metamap_test import get_concepts
 from get_atoms import get_synonyms
 from word_finder import find_word_frequency
+import pickle
 
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
-for first in files:
+words_from_files = []
+dkt_names = {}
+
+for i, first in enumerate(files):
     # first = files[88]
-    print(first)
+    print(first, i)
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
     new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
-    # if os.path.exists(new_name):
-    #     continue
+    if os.path.exists(new_name):
+        continue
     # if "29436152" not in new_name:
     #     continue
     with open(first, "r") as file:
         data = file.read()
     # print(first)
     data = data.split("\n")
+    curr_file_names = []
+    curr_file_names.append(os.path.basename(first)[:-4])
     for line in data:
         if len(line)>0 and line[0]=="T":
             line = line.split("\t")
@@ -33,6 +39,7 @@ for first in files:
             start_idx = 0
             mm_sent = ''
             for concept in ordered_concepts:
+                curr_concept_freqs = []
                 parts = concept[8].split('/')
                 end_idx = int(parts[0]) - 1
                 mm_sent += sent[start_idx: end_idx]
@@ -41,7 +48,8 @@ for first in files:
                 replacement_list.append({"name": concept[3]})
                 replacement_list.append({"name": replacement})
                 replacement_list += get_synonyms(concept[4])
-                
+                original_replacement = replacement
+                curr_file_names.append(original_replacement+"_"+concept[4])
                 # sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
                 if replacement_list:
                     max_cnt = -2
@@ -49,11 +57,13 @@ for first in files:
                         if rep["name"]=="":
                             continue
                         freq = find_word_frequency(rep["name"])
+                        curr_concept_freqs.append((rep["name"], freq))
                         if freq > max_cnt:
                             max_cnt = freq
                             replacement = rep["name"]
                 mm_sent += replacement
                 start_idx = end_idx + int(parts[1])
+                dkt_names[original_replacement+"_"+concept[4]] = curr_concept_freqs
 
             # If no concepts are found, copy everything!
             if start_idx != 0:
@@ -66,3 +76,12 @@ for first in files:
             with open(new_name, "a") as file:
                 file.write(line[0] + "\t" + line[1] + "\t" + line[2]+"\n")
                 file.write(line[0] + "\t" + line[1] + "\t" + mm_sent+"\n\n")
+
+    words_from_files.append(curr_file_names)
+
+
+with open('dkt_names.pickle', 'wb') as handle:
+    pickle.dump(dkt_names, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+with open('words_files.pickle', 'wb') as handle:
+    pickle.dump(words_from_files, handle, protocol=pickle.HIGHEST_PROTOCOL)
