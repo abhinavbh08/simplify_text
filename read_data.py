@@ -10,6 +10,15 @@ from nltk.corpus import stopwords
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
+with open("sem_types.txt", "r") as file:
+    sts = file.read().split("\n")
+
+dkt_fullforms = {}
+for line in sts:
+    line = line.split("|")
+    dkt_fullforms[line[0]] = line[2]
+
+
 for i, first in enumerate(files):
     # first = files[88]
     print(first, i)
@@ -39,6 +48,7 @@ for i, first in enumerate(files):
                 mm_sent += sent[start_idx: end_idx]
                 replacement_list = []
                 replacement = sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
+                part_to_add = ""
                 if len(replacement)>2 and replacement not in stopwords.words("english"):
                     replacement_list.append({"name": concept[3]})
                     replacement_list.append({"name": replacement})
@@ -54,12 +64,15 @@ for i, first in enumerate(files):
                             if freq > max_cnt:
                                 max_cnt = freq
                                 replacement = rep["name"]
-                mm_sent += replacement
+                    lst_concepts_short = concept[5][1:-1].split(",")
+                    lst_concepts_full = [dkt_fullforms[sm_type] for sm_type in lst_concepts_short]
+                    part_to_add = " (" + "/".join(lst_concepts_full) + ")"
+                mm_sent += replacement + part_to_add
                 start_idx = end_idx + int(parts[1])
 
             # If no concepts are found, copy everything!
             if start_idx != 0:
-                mm_sent += sent[start_idx: len(sent)]
+                mm_sent += sent[start_idx: ]
             else:
                 mm_sent = sent
 
