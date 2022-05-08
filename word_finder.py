@@ -11,12 +11,12 @@ def find_word_frequency(word):
         return 0
     cnt = 0
     for word in words:
+        word = word.replace("/", "")
         encoded_query = urllib.parse.quote(word)
         params = {'corpus': 'eng-us', 'query': encoded_query, 'topk': 1}
         params = '&'.join('{}={}'.format(name, value) for name, value in params.items())
 
         response = requests.get('https://api.phrasefinder.io/search?' + params)
-
         assert response.status_code == 200
 
         # print(response.json())
@@ -25,4 +25,4 @@ def find_word_frequency(word):
             cnt += response.json()['phrases'][0]['mc']
     return cnt / len(words)
 
-# print(find_word_frequency("blood then pressure"))
+# print(find_word_frequency("Emtricitabine"))

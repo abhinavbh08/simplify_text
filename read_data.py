@@ -5,13 +5,14 @@ import glob
 from metamap_test import get_concepts
 from get_atoms import get_synonyms
 from word_finder import find_word_frequency
+from nltk.corpus import stopwords
 
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
-for first in files:
+for i, first in enumerate(files):
     # first = files[88]
-    print(first)
+    print(first, i)
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
     new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
@@ -38,20 +39,21 @@ for first in files:
                 mm_sent += sent[start_idx: end_idx]
                 replacement_list = []
                 replacement = sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
-                replacement_list.append({"name": concept[3]})
-                replacement_list.append({"name": replacement})
-                replacement_list += get_synonyms(concept[4])
-                
-                # sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
-                if replacement_list:
-                    max_cnt = -2
-                    for rep in replacement_list:
-                        if rep["name"]=="":
-                            continue
-                        freq = find_word_frequency(rep["name"])
-                        if freq > max_cnt:
-                            max_cnt = freq
-                            replacement = rep["name"]
+                if len(replacement)>2 and replacement not in stopwords.words("english"):
+                    replacement_list.append({"name": concept[3]})
+                    replacement_list.append({"name": replacement})
+                    replacement_list += get_synonyms(concept[4])
+                    
+                    # sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
+                    if replacement_list:
+                        max_cnt = -2
+                        for rep in replacement_list:
+                            if rep["name"]=="":
+                                continue
+                            freq = find_word_frequency(rep["name"])
+                            if freq > max_cnt:
+                                max_cnt = freq
+                                replacement = rep["name"]
                 mm_sent += replacement
                 start_idx = end_idx + int(parts[1])
 
