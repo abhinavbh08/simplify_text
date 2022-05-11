@@ -6,6 +6,7 @@ from metamap_test import get_concepts
 from get_atoms import get_synonyms
 from word_finder import find_word_frequency
 from nltk.corpus import stopwords
+from get_definition import get_definition
 
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
@@ -16,8 +17,8 @@ for i, first in enumerate(files):
     # first = "../abstrct/AbstRCT_corpus/data/test/mixed_test/29527973.ann"
     # first[:-4]+"_edited.txt"
     new_name = "../abstrct/AbstRCT_corpus/data/test/mixed_test/edited/" + os.path.basename(first)[:-4]+"_edited.txt"
-    # if os.path.exists(new_name):
-    #     continue
+    if os.path.exists(new_name):
+        continue
     # if "29436152" not in new_name:
     #     continue
     with open(first, "r") as file:
@@ -39,6 +40,8 @@ for i, first in enumerate(files):
                 mm_sent += sent[start_idx: end_idx]
                 replacement_list = []
                 replacement = sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
+                original_word = replacement
+                part_to_add = ""
                 if len(replacement)>2 and replacement not in stopwords.words("english"):
                     replacement_list.append({"name": concept[3]})
                     replacement_list.append({"name": replacement})
@@ -54,7 +57,8 @@ for i, first in enumerate(files):
                             if freq > max_cnt:
                                 max_cnt = freq
                                 replacement = rep["name"]
-                mm_sent += replacement
+                    part_to_add = " (" + get_definition(concept[4], original_word) + ")"
+                mm_sent += replacement + part_to_add
                 start_idx = end_idx + int(parts[1])
 
             # If no concepts are found, copy everything!

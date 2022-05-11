@@ -9,6 +9,10 @@ from Authentication import *
 import requests
 import json
 import argparse
+import heapq as hq
+from googleapi import google
+import nltk
+import time
 
 # parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
@@ -51,9 +55,9 @@ uri = "https://uts-ws.nlm.nih.gov"
 # else:
 #     content_endpoint = "/rest/content/"+str(version)+"/source/"+str(source)+"/"+str(identifier)
 
-def get_synonyms(cui):
-    content_endpoint = "/rest/content/2020AA/CUI/" + cui +"/atoms?sabs=SNOMEDCT_US,CHV,MSH"
-
+def get_definition(cui, word):
+    content_endpoint = "/rest/content/2020AA/CUI/" + cui + "/definitions"
+    # content_endpoint = "rest/content/2020AA/CUI/" + cui + "/definitions"	
     ##ticket is the only parameter needed for this call - paging does not come into play because we're only asking for one Json object
     query = {'ticket':AuthClient.getst(tgt)}
     r = requests.get(uri+content_endpoint,params=query)
@@ -61,83 +65,27 @@ def get_synonyms(cui):
     items  = json.loads(r.text)
     try:
         jsonData = items["result"]
-        return jsonData
     except:
-        return []
+        jsonData = []
     # for data in jsonData:
     #     print(data["name"], data['rootSource'])
 
+    h = []
+    for data_item in jsonData:
+        if data_item["rootSource"] == "MSH":
+            hq.heappush(h, (1, data_item["value"]))
+        elif data_item["rootSource"] == "NCI":
+            hq.heappush(h, (2, data_item["value"]))
+        elif data_item["rootSource"] == "SNOMEDCT_US":
+            hq.heappush(h, (3, data_item["value"]))
+    if len(h)>0:
+        full_text = hq.heappop(h)[1]
+        return nltk.sent_tokenize(full_text)[0]
+    # word = "abc"
+    # time.sleep(10)
+    search_results = google.search(word, 1)
+    for sres in search_results:
+        if sres.description:
+            return nltk.sent_tokenize(sres.description)[0]
 
-# get_synonyms("C0038969")
-# 
-##uncomment the print statment if you want the raw json output, or you can just look at the documentation :=)
-#https://documentation.uts.nlm.nih.gov/rest/concept/index.html#sample-output
-#https://documentation.uts.nlm.nih.gov/rest/source-asserted-identifiers/index.html#sample-output
-#print (json.dumps(items, indent = 4))
-
-############################
-### Print out fields ####
-
-# for data in jsonData:
-#     print(data["name"], data['rootSource'])
-
-# classType = jsonData["classType"]
-# name = jsonData["name"]
-# ui = jsonData["ui"]
-# AtomCount = jsonData["atomCount"]
-# Definitions = jsonData["definitions"]
-# Atoms = jsonData["atoms"]
-# DefaultPreferredAtom = jsonData["defaultPreferredAtom"]
-
-
-
-
-
-## print out the shared data elements that are common to both the 'Concept' and 'SourceAtomCluster' class
-# print ("classType: " + classType)
-# print ("ui: " + ui)
-# print ("Name: " + name)
-# print ("AtomCount: " + str(AtomCount))
-# print ("Atoms: " + Atoms)
-# print ("Default Preferred Atom: " + DefaultPreferredAtom)
-
-## These data elements may or may not exist depending on what class ('Concept' or 'SourceAtomCluster') you're dealing with so we check for each one.
-# try:
-#    jsonData["definitions"]
-#    print ("definitions: " + jsonData["definitions"])
-# except:
-#       pass
-
-# try:
-#    jsonData["parents"]
-#    print ("parents: " + jsonData["parents"])
-# except:
-#       pass
-
-# try:
-#    jsonData["children"]
-#    print ("children: " + jsonData["children"])
-# except:
-#       pass
-
-# try:
-#    jsonData["relations"]
-#    print ("relations: " + jsonData["relations"])
-# except:
-#       pass
-
-# try:
-#    jsonData["descendants"]
-#    print ("descendants: " + jsonData["descendants"])
-# except:
-#       pass
-
-# try:
-#    jsonData["semanticTypes"]
-#    print("Semantic Types:")
-#    for stys in jsonData["semanticTypes"]:
-#        print("uri: "+ stys["uri"])
-#        print("name: "+ stys["name"])
-      
-# except:
-    #   pass
+# get_definition("C0439708", "Mucous Appearance")
