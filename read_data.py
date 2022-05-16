@@ -65,6 +65,8 @@ for i, first in enumerate(files):
                                 max_cnt = freq
                                 replacement = rep["name"]
                     lst_concepts_short = concept[5][1:-1].split(",")
+                    if "phsu" in lst_concepts_short:
+                        lst_concepts_short = ["phsu"]
                     lst_concepts_full = [dkt_fullforms[sm_type] for sm_type in lst_concepts_short]
                     part_to_add = " (" + "/".join(lst_concepts_full) + ")"
                 mm_sent += replacement + part_to_add
