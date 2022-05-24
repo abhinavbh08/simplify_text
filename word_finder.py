@@ -26,3 +26,7 @@ def find_word_frequency(word):
     return cnt / len(words)
 
 # print(find_word_frequency("Emtricitabine"))
+# print(find_word_frequency("An imidazole derivative and a selective alpha-2 adrenergic receptor agonist."))
+# print(find_word_frequency(" Upon ocular administration, brimonidine acts on the blood vessels causing them to constrict which leads to a decrease in the production of aqueous humor."))
+# print(find_word_frequency("Brimonidine also enhances the uveoscleral outflow of aqueous humor."))
+# print(find_word_frequency("This reduces intraocular pressure."))

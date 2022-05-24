@@ -13,6 +13,8 @@ import heapq as hq
 from googleapi import google
 import nltk
 import time
+from word_finder import find_word_frequency
+from nltk.corpus import wordnet
 
 # parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
@@ -54,6 +56,20 @@ uri = "https://uts-ws.nlm.nih.gov"
 
 # else:
 #     content_endpoint = "/rest/content/"+str(version)+"/source/"+str(source)+"/"+str(identifier)
+import string
+from nltk.corpus import stopwords
+
+def cnt_eng_words(sent_test):
+    cnt = 0
+    for word in nltk.word_tokenize(sent_test.lower()):
+        if word in string.punctuation:
+            continue
+        if word in stopwords.words('english'):
+            continue
+        if not wordnet.synsets(word):
+            cnt+=1
+    return cnt
+
 
 def get_definition(cui, word):
     content_endpoint = "/rest/content/2020AA/CUI/" + cui + "/definitions"
@@ -73,19 +89,35 @@ def get_definition(cui, word):
     h = []
     for data_item in jsonData:
         if data_item["rootSource"] == "MSH":
-            hq.heappush(h, (1, data_item["value"]))
+            # hq.heappush(h, (1, data_item["value"]))
+            h.append(data_item["value"])
         elif data_item["rootSource"] == "NCI":
-            hq.heappush(h, (2, data_item["value"]))
+            # hq.heappush(h, (2, data_item["value"]))
+            h.append(data_item["value"])
         elif data_item["rootSource"] == "SNOMEDCT_US":
-            hq.heappush(h, (3, data_item["value"]))
-    if len(h)>0:
-        full_text = hq.heappop(h)[1]
-        return nltk.sent_tokenize(full_text)[0]
+            # hq.heappush(h, (3, data_item["value"]))
+            h.append(data_item["value"])
+    # if len(h)>0:
+    #     full_text = hq.heappop(h)[1]
+    #     return nltk.sent_tokenize(full_text)[0]
     # word = "abc"
     # time.sleep(10)
+
+    senses = []
+    for sense in h:
+        senses += nltk.sent_tokenize(sense)
+    max_cnt = 10000
+    replacement = ""
+    for rep in senses:
+        freq = cnt_eng_words(rep)
+        if freq < max_cnt:
+            max_cnt = freq
+            replacement = rep
+    if replacement!="":
+        return replacement
     search_results = google.search(word, 1)
     for sres in search_results:
         if sres.description:
             return nltk.sent_tokenize(sres.description)[0]
 
-# get_definition("C0439708", "Mucous Appearance")
+# get_definition("C0022646", "CHB")
