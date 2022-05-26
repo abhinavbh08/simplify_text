@@ -70,6 +70,7 @@ for line in sts:
     line = line.split("|")
     dkt_fullforms[line[0]] = line[2]
 
+
 def cnt_eng_words(sent_test):
     cnt = 0
     for word in nltk.word_tokenize(sent_test.lower()):
@@ -81,7 +82,6 @@ def cnt_eng_words(sent_test):
             cnt+=1
     return cnt
 
-cnt_eng_words("Those hepatitis B antigens (Pharmacologic Substance) found on the surface of the Dane particle and on the 20 nm spherical and tubular particles.")
 
 def get_definition(cui, word):
     content_endpoint = "/rest/content/2020AA/CUI/" + cui + "/definitions"
@@ -118,7 +118,7 @@ def get_definition(cui, word):
     senses = []
     for sense in h:
         descs = nltk.sent_tokenize(sense)
-        senses += descs[:min(len(descs), 3)]
+        senses += descs[:min(len(descs), 5)]
 
     wiki_wiki = wikipediaapi.Wikipedia('simple')
     page_py = wiki_wiki.page(word)
@@ -144,7 +144,7 @@ def get_definition(cui, word):
             descs = nltk.sent_tokenize(sres.description)
             senses += descs[:min(len(descs), 3)]
             cnt_res+=1
-        if cnt_res==3:
+        if cnt_res==2:
             break
     
     max_cnt = 10000
@@ -185,7 +185,7 @@ def get_definition(cui, word):
     else:
         mm_sent = sent
 
-    if cnt_addeds > 3:
+    if cnt_addeds > 0:
         return ""
     return mm_sent
 
