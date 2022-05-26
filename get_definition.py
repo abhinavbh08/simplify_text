@@ -15,6 +15,8 @@ import nltk
 import time
 from word_finder import find_word_frequency
 from nltk.corpus import wordnet
+import wikipediaapi
+from metamap_test import get_concepts
 
 # parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
@@ -59,6 +61,15 @@ uri = "https://uts-ws.nlm.nih.gov"
 import string
 from nltk.corpus import stopwords
 
+with open("sem_types.txt", "r") as file:
+    sts = file.read().split("\n")
+
+
+dkt_fullforms = {}
+for line in sts:
+    line = line.split("|")
+    dkt_fullforms[line[0]] = line[2]
+
 def cnt_eng_words(sent_test):
     cnt = 0
     for word in nltk.word_tokenize(sent_test.lower()):
@@ -70,6 +81,7 @@ def cnt_eng_words(sent_test):
             cnt+=1
     return cnt
 
+cnt_eng_words("Those hepatitis B antigens (Pharmacologic Substance) found on the surface of the Dane particle and on the 20 nm spherical and tubular particles.")
 
 def get_definition(cui, word):
     content_endpoint = "/rest/content/2020AA/CUI/" + cui + "/definitions"
@@ -105,19 +117,76 @@ def get_definition(cui, word):
 
     senses = []
     for sense in h:
-        senses += nltk.sent_tokenize(sense)
+        descs = nltk.sent_tokenize(sense)
+        senses += descs[:min(len(descs), 3)]
+
+    wiki_wiki = wikipediaapi.Wikipedia('simple')
+    page_py = wiki_wiki.page(word)
+    if page_py.summary != "":
+        descs = nltk.sent_tokenize(page_py.summary)
+        senses += descs[:min(len(descs), 3)]
+
+
+    ## Wikipedia
+    wiki_wiki = wikipediaapi.Wikipedia('en')
+    page_py = wiki_wiki.page(word)
+    if page_py.summary != "":
+        descs = nltk.sent_tokenize(page_py.summary)
+        senses += descs[:min(len(descs), 3)]
+    # print(page_py.summary)
+
+
+    ## Google search results
+    cnt_res = 0
+    search_results = google.search(word, 1)
+    for sres in search_results:
+        if sres.description:
+            descs = nltk.sent_tokenize(sres.description)
+            senses += descs[:min(len(descs), 3)]
+            cnt_res+=1
+        if cnt_res==3:
+            break
+    
     max_cnt = 10000
     replacement = ""
     for rep in senses:
+        if len(rep.split()) < 5:
+            continue
         freq = cnt_eng_words(rep)
         if freq < max_cnt:
             max_cnt = freq
             replacement = rep
-    if replacement!="":
+    if replacement=="":
         return replacement
-    search_results = google.search(word, 1)
-    for sres in search_results:
-        if sres.description:
-            return nltk.sent_tokenize(sres.description)[0]
 
-# get_definition("C0022646", "CHB")
+    ordered_concepts, sent = get_concepts(replacement)
+    start_idx = 0
+    cnt_addeds = 0
+    mm_sent = ''
+    for concept in ordered_concepts:
+        parts = concept[8].split('/')
+        end_idx = int(parts[0]) - 1
+        mm_sent += sent[start_idx: end_idx]
+        rep = sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
+        part_to_add = ""
+        if len(rep)>2 and rep not in stopwords.words("english") and not wordnet.synsets(rep):
+            lst_concepts_short = concept[5][1:-1].split(",")
+            if "phsu" in lst_concepts_short:
+                lst_concepts_short = ["phsu"]
+            lst_concepts_full = [dkt_fullforms[sm_type] for sm_type in lst_concepts_short]
+            part_to_add = " (" + "/".join(lst_concepts_full) + ")"
+            cnt_addeds+=1
+        mm_sent += rep + part_to_add
+        start_idx = end_idx + int(parts[1])
+
+    # If no concepts are found, copy everything!
+    if start_idx != 0:
+        mm_sent += sent[start_idx: ]
+    else:
+        mm_sent = sent
+
+    if cnt_addeds > 3:
+        return ""
+    return mm_sent
+
+# get_definition("C0020538", "Hypertension")

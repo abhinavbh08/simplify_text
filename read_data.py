@@ -11,6 +11,14 @@ from get_definition import get_definition
 path = "../abstrct/AbstRCT_corpus/data/test/mixed_test"
 files = glob.glob(path + "/*.ann")
 
+with open("sem_types.txt", "r") as file:
+    sts = file.read().split("\n")
+
+dkt_fullforms = {}
+for line in sts:
+    line = line.split("|")
+    dkt_fullforms[line[0]] = line[2]
+
 for i, first in enumerate(files):
     # first = files[88]
     print(first, i)
@@ -30,7 +38,7 @@ for i, first in enumerate(files):
             line = line.split("\t")
             # simplified_sentence = line[2].lower()
             # print(line[0] + "\t" + line[1] + "\t" + simplified_sentence)
-
+            line[2] = "AZT reduced blood pressure, vascular stiffness, and sleep-disordered breathing in patients with OSA and comorbid hypertension."
             ordered_concepts, sent = get_concepts(line[2])
             start_idx = 0
             mm_sent = ''
@@ -57,7 +65,15 @@ for i, first in enumerate(files):
                             if freq > max_cnt:
                                 max_cnt = freq
                                 replacement = rep["name"]
-                    part_to_add = " (" + get_definition(concept[4], original_word) + ")"
+                    adding = get_definition(concept[4], original_word)
+                    if adding!="":
+                        part_to_add = " (" + adding + ")"
+                    else:
+                        lst_concepts_short = concept[5][1:-1].split(",")
+                        if "phsu" in lst_concepts_short:
+                            lst_concepts_short = ["phsu"]
+                        lst_concepts_full = [dkt_fullforms[sm_type] for sm_type in lst_concepts_short]
+                        part_to_add = " (" + "/".join(lst_concepts_full) + ")"                        
                 mm_sent += replacement + part_to_add
                 start_idx = end_idx + int(parts[1])
 
