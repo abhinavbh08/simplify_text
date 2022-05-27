@@ -30,7 +30,7 @@ for i, first in enumerate(files):
             line = line.split("\t")
             # simplified_sentence = line[2].lower()
             # print(line[0] + "\t" + line[1] + "\t" + simplified_sentence)
-
+            line[2] = "AZT reduced blood pressure, vascular stiffness, and sleep-disordered breathing in patients with OSA and comorbid hypertension."
             ordered_concepts, sent = get_concepts(line[2])
             start_idx = 0
             mm_sent = ''
@@ -57,7 +57,9 @@ for i, first in enumerate(files):
                             if freq > max_cnt:
                                 max_cnt = freq
                                 replacement = rep["name"]
-                    part_to_add = " (" + get_definition(concept[4], original_word) + ")"
+                    ret_def = get_definition(concept[4], original_word)
+                    if ret_def != "":
+                        part_to_add = " (" +  ret_def + ")"
                 mm_sent += replacement + part_to_add
                 start_idx = end_idx + int(parts[1])
 

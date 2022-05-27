@@ -15,6 +15,9 @@ import nltk
 import time
 from word_finder import find_word_frequency
 from nltk.corpus import wordnet
+import wikipediaapi
+import string
+from metamap_test import get_concepts
 
 # parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
@@ -56,10 +59,12 @@ uri = "https://uts-ws.nlm.nih.gov"
 
 # else:
 #     content_endpoint = "/rest/content/"+str(version)+"/source/"+str(source)+"/"+str(identifier)
+
 import string
 from nltk.corpus import stopwords
 
 def cnt_eng_words(sent_test):
+
     cnt = 0
     for word in nltk.word_tokenize(sent_test.lower()):
         if word in string.punctuation:
@@ -69,6 +74,32 @@ def cnt_eng_words(sent_test):
         if not wordnet.synsets(word):
             cnt+=1
     return cnt
+
+    # ordered_concepts, sent = get_concepts(sent_test)
+    # cnt_addeds = 0
+    # for concept in ordered_concepts:
+    #     parts = concept[8].split('/')
+    #     rep = sent[int(parts[0])-1:int(parts[0])-1+int(parts[1])]
+    #     if len(rep)>2 and rep not in stopwords.words("english") and not wordnet.synsets(rep):
+    #         cnt_addeds+=1
+    # return cnt_addeds
+
+# print(cnt_eng_words("Clinical hypoglycemia has diverse etiologies."))
+
+# def cnt_synset_words(sent_test):
+
+#     cnt = 0
+#     for word in nltk.word_tokenize(sent_test.lower()):
+#         if word in string.punctuation:
+#             continue
+#         if word in stopwords.words('english'):
+#             continue
+#         if not wordnet.synsets(word):
+#             cnt+=1
+#     return cnt
+
+
+# print(cnt_synset_words("A syndrome of abnormally low BLOOD GLUCOSE level"))
 
 
 def get_definition(cui, word):
@@ -104,20 +135,51 @@ def get_definition(cui, word):
     # time.sleep(10)
 
     senses = []
+
     for sense in h:
-        senses += nltk.sent_tokenize(sense)
+        descs = nltk.sent_tokenize(sense)
+        senses += descs[:min(len(descs), 5)]
+
+    wiki_wiki = wikipediaapi.Wikipedia('simple')
+    page_py = wiki_wiki.page(word)
+    if page_py.summary != "":
+        descs = nltk.sent_tokenize(page_py.summary)
+        senses += descs[:min(len(descs), 3)]
+
+    ## Wikipedia
+    wiki_wiki = wikipediaapi.Wikipedia('en')
+    page_py = wiki_wiki.page(word)
+    if page_py.summary != "":
+        descs = nltk.sent_tokenize(page_py.summary)
+        senses += descs[:min(len(descs), 3)]
+    # print(page_py.summary)
+
+    flag = True
+    if len(word)<=4 and all([True if c in string.ascii_uppercase else False for c in word]):
+        flag = False
+
+    ## Google search results
+    if flag==True and len(senses)==0:
+        cnt_res = 0
+        search_results = google.search(word, 1)
+        for sres in search_results:
+            if sres.description:
+                descs = nltk.sent_tokenize(sres.description)
+                senses += descs[:min(len(descs), 3)]
+                cnt_res+=1
+            if cnt_res==2:
+                break
+    
     max_cnt = 10000
     replacement = ""
     for rep in senses:
+        if len(rep.split()) < 5:
+            continue
         freq = cnt_eng_words(rep)
         if freq < max_cnt:
             max_cnt = freq
             replacement = rep
-    if replacement!="":
-        return replacement
-    search_results = google.search(word, 1)
-    for sres in search_results:
-        if sres.description:
-            return nltk.sent_tokenize(sres.description)[0]
+
+    return replacement
 
 # get_definition("C0022646", "CHB")
