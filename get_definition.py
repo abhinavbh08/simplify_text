@@ -137,16 +137,22 @@ def get_definition(cui, word):
 
 
     ## Google search results
-    cnt_res = 0
-    search_results = google.search(word, 1)
-    for sres in search_results:
-        if sres.description:
-            descs = nltk.sent_tokenize(sres.description)
-            senses += descs[:min(len(descs), 3)]
-            cnt_res+=1
-        if cnt_res==2:
-            break
-    
+    flag = True
+    if len(word)<=4 and all([True if c in string.ascii_uppercase else False for c in word]):
+        flag = False
+
+    ## Google search results
+    if flag==True and len(senses)==0:
+        cnt_res = 0
+        search_results = google.search(word, 1)
+        for sres in search_results:
+            if sres.description:
+                descs = nltk.sent_tokenize(sres.description)
+                senses += descs[:min(len(descs), 3)]
+                cnt_res+=1
+            if cnt_res==2:
+                break
+        
     max_cnt = 10000
     replacement = ""
     for rep in senses:
